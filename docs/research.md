@@ -47,9 +47,9 @@ The American Medical Association (2016) recommended communities use 3000K or bel
 ## Standards Landscape
 
 ### National
-- **ANSI/IES RP-8-22**: 20 lux vertical at 1.5m above crosswalk surface, 14 lux horizontal average minimum
+- **ANSI/IES RP-8-25** (2025, supersedes RP-8-22): 20 lux vertical at 1.5m above crosswalk surface, 14 lux horizontal average minimum. *Note: these values were established in RP-8-22; verify unchanged in RP-8-25 when the 2025 edition is obtained.*
 - **AASHTO Roadway Lighting Design Guide (2018)**: Reinforces IES RP-8 illuminance criteria; referenced by state DOTs for design policy. Addresses crosswalk lighting but not coordinated activation.
-- **MUTCD 11th Edition (2023)**: Codified RRFBs. Notes lighting *should* be a prerequisite. No activation spec.
+- **MUTCD 11th Edition with Revision 1 (2025)**: Codified RRFBs. Notes lighting *should* be a prerequisite. No activation spec.
 - **FHWA Informational Report on Lighting Design for Midblock Crosswalks**: Reference, not mandate
 
 ### State (Tennessee / TDOT)

@@ -159,7 +159,7 @@ Everything in this section applies to installations within Nashville / Davidson 
 - Governs: Minimum electrical code statewide. Nashville supersedes with NEC 2023. State NEC 2017 applies in unincorporated areas not covered by Nashville's adoption.
 - Status: **HARD**
 
-**Tennessee State Fire Marshal — IFC 2021 (effective April 17, 2025)**
+**Tennessee State Fire Marshal — IFC 2021 (effective August 2025 per TN State Fire Marshal adoption schedule)**
 - Authority: TN Dept. of Commerce & Insurance, Division of Fire Prevention
 - Governs: Fire code for energy storage systems, electrical equipment. References NFPA 855 for ESS installations. Chapter 0780-02-02 contains Tennessee-specific amendments.
 - Status: **HARD**
@@ -221,7 +221,7 @@ Everything in this section applies to installations within Nashville / Davidson 
 
 ### Traffic Engineering and Roadway Design
 
-**MUTCD 11th Edition (2023) — Chapter 4L**
+**MUTCD 11th Edition with Revision 1 (2025) — Chapter 4L**
 - Authority: FHWA
 - Governs: RRFB device standards, placement, flash pattern, sign requirements. Notes lighting "should" be a prerequisite for RRFB installation. No coordinated activation spec.
 - Status: **HARD** for RRFB device compliance; **ADVISORY** for lighting as prerequisite
@@ -271,7 +271,7 @@ Everything in this section applies to installations within Nashville / Davidson 
 
 ### Illumination Standards
 
-**ANSI/IES RP-8-22 — Roadway and Intersection Lighting**
+**ANSI/IES RP-8-25 — Roadway and Intersection Lighting**
 - Authority: ANSI/IES
 - Governs: 20 lux vertical at 1.5m above crosswalk surface; 14 lux horizontal average maintained minimum; max 4:1 uniformity ratio. The definitive standard for crosswalk illumination.
 - Status: **ADVISORY** standalone; **HARD** when referenced by TDOT or local design manuals

@@ -29,7 +29,7 @@ What doesn't exist is any specification for how that lighting should work at an 
 - No illuminance target at the crossing surface (vs general area lighting)
 - No clearing integration to keep the light on until the pedestrian is across
 
-The MUTCD 11th Edition (2023) says lighting *should* be a prerequisite for RRFB installation — advisory, not mandatory — and provides no activation specification at all. AASHTO's Roadway Lighting Design Guide reinforces IES RP-8 illuminance criteria but does not address coordinated activation.
+The MUTCD 11th Edition with Revision 1 (2025) says lighting *should* be a prerequisite for RRFB installation — advisory, not mandatory — and provides no activation specification at all. AASHTO's Roadway Lighting Design Guide reinforces IES RP-8 illuminance criteria but does not address coordinated activation.
 
 A standard cobra-head streetlight near the crossing technically satisfies the current "shall." It does not solve the problem.
 
@@ -39,7 +39,7 @@ A narrow-beam overhead LED, solar-powered, activated by the same trigger as the 
 
 - **Cutoff fixture, 15-25° beam**: Light pool confined to crossing surface. Driver sees an illuminated pedestrian, not a light source. Eliminates the glare objection that has historically blocked crosswalk lighting proposals.
 - **4000K color temperature**: FHWA research (HRT-15-047) documents significant improvement in pedestrian detection with higher CCT in nighttime conditions (~20% at 4000K vs 3000K per IPWEA; 30-40% at wider CCT gaps per VTTI). Nashville's dark sky ordinance caps at 3000K, but TDOT state-route installations may be jurisdictionally exempt, and a variance path exists for safety-critical applications. The AMA's concerns about 4000K streetlighting address continuous all-night exposure — this system activates for 15-20 seconds per event.
-- **20 lux vertical at 1.5m**: Meets ANSI/IES RP-8-22 — the actual standard for crosswalk illuminance.
+- **20 lux vertical at 1.5m**: Meets ANSI/IES RP-8-25 — the actual standard for crosswalk illuminance.
 - **Multi-fixture for wide roads**: A single narrow-beam fixture covers ~11ft at 25ft mounting height. Nashville's 4-5 lane arterials need 2-3 fixtures per crossing — one per direction of travel, optional median fixture. Fixtures share a single controller and solar/battery system.
 - **Radar detection**: Triggers automatically (no reliance on push-button compliance), confirms crossing is clear before ramp-down, and captures demand and yield data that most RRFB locations currently lack.
 - **Solar-first**: Sidesteps NES utility coordination on state routes. 48V DC bus with LiFePO4 battery, sized for 72 hours without solar charge at December insolation. Conduit stubbed for future hardwire.

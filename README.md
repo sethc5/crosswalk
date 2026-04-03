@@ -15,7 +15,7 @@ The beacon tells drivers a crossing exists. The light lets them see the person i
 - RRFBs increase daytime yielding to 70-90%, but nighttime-specific data is sparse — the beacon says "someone is crossing" while the pedestrian remains invisible
 - No Crash Modification Factor exists for coordinated crosswalk illumination
 
-The MUTCD 11th Edition (2023) says lighting *should* accompany RRFBs. Multiple state DOTs require lighting at midblock crossings. But no standard specifies coordinated activation, beam geometry, illuminance targets, or clearing integration.
+The MUTCD 11th Edition with Revision 1 (2025) says lighting *should* accompany RRFBs. Multiple state DOTs require lighting at midblock crossings. But no standard specifies coordinated activation, beam geometry, illuminance targets, or clearing integration.
 
 The hardware exists. The standards gap is the problem. Nobody has written the spec that makes coordinated illumination standard practice.
 

@@ -25,7 +25,9 @@ Coordinated Crosswalk Illumination at RRFB-Equipped Midblock Crossings: A Before
 - **Treatment**: Existing RRFB crossing retrofitted with coordinated illumination system
 - **Control**: Matched existing RRFB crossing, no modification
 
-**Matching criteria**: Road width (number of lanes), posted speed limit, AADT, pedestrian crossing volume, adjacent land use, existing lighting conditions, RRFB model/configuration.
+**Matching criteria**: Road width (number of lanes), posted speed limit, AADT, pedestrian crossing volume, adjacent land use, existing lighting conditions, RRFB model/configuration, baseline pedestrian crash rate (5-year), and baseline RRFB activation rate.
+
+**Minimum separation**: Treatment and control crossings should be at least 0.5 miles apart on the same corridor to minimize spillover/contamination effects (drivers who experience the illuminated crossing may change behavior at the nearby control).
 
 **Recommended corridors** (Nashville):
 - Nolensville Pike (SR 11A) — active SS4A grant, high crash history, TDOT jurisdiction
@@ -72,9 +74,13 @@ Requires temporary equipment installation:
 - RRFB activation logger (records push-button events)
 
 ### Manual (periodic sampling)
-- Video recording for yielding rate coding (minimum 40 hours per crossing per period: 20 daytime, 20 nighttime, split across weekday/weekend)
+- Video recording for yielding rate coding (minimum 40 hours per crossing per period: 20 daytime, 20 nighttime, split across weekday/weekend). Use traffic-camera-style equipment to minimize Hawthorne effect — visible research-style setups may alter driver behavior.
 - Pedestrian behavior coding from video (push-button use, crossing path, wait time)
 - Illuminance measurements at crossing surface (handheld meter, quarterly verification)
+- **Inter-rater reliability**: Yielding rate coding must be performed by at least 2 independent coders. Report Cohen's kappa with minimum threshold of κ > 0.80 for inclusion in analysis.
+
+### Concurrent Change Documentation
+Maintain a log of any infrastructure, regulatory, or land use changes at or near either crossing throughout the study period (signal timing changes, new development, speed limit modifications, road diet, adjacent construction). The comparison group controls for corridor-wide changes but not crossing-specific confounders.
 
 ## Timeline
 
@@ -122,6 +128,18 @@ Requires temporary equipment installation:
 5. **CMF calculation**: Crash Modification Factor using empirical Bayes before-after method if sufficient crash data accumulates (requires 3-5 years). In the interim, report surrogate safety measures (yielding rate, speed, near-miss rate) as Crash Modification Function inputs per FHWA CMF Clearinghouse methodology.
 
 6. **Subgroup analyses**: Day vs night, clear vs adverse weather, high-visibility vs dark clothing (video-coded subsample), push-button vs radar-triggered activations.
+
+7. **Regression to the mean (RTM) control**: If treatment crossings are selected partly because of high crash history, apparent improvement in the after period may reflect RTM rather than treatment effect. The comparison group design controls for RTM by providing a matched baseline — any RTM effect should appear equally at both crossings. For crash-based CMF calculation, the empirical Bayes method explicitly adjusts for RTM using expected crash frequency from the reference population. For surrogate measures (yielding rate, speed), RTM is less of a concern because these are behavioral measures with high event counts, not rare-event counts subject to Poisson variation.
+
+## Phase Structure
+
+This pilot is **Phase 1** of a multi-phase research program:
+
+- **Phase 1 (this study)**: 1-3 treatment crossings + matched controls. Generates surrogate safety measures (yielding rate, speed, near-miss rate) and establishes the data capture methodology. Sufficient for initial CMF Clearinghouse submission with surrogate measures. Duration: ~20 months.
+
+- **Phase 2 (expansion)**: 4-10 additional treatment crossings across multiple corridors and road types. Strengthens statistical power, tests generalizability beyond initial sites, begins accumulating crash data. Duration: 2-3 years.
+
+- **Phase 3 (crash-based CMF)**: With 3-5 years of crash data across 10+ treatment crossings, calculate a crash-based CMF using empirical Bayes method. This is the gold standard for the FHWA CMF Clearinghouse and the threshold for high star-rating. Duration: 3-5 years from Phase 1 start.
 
 ## IRB Considerations
 
