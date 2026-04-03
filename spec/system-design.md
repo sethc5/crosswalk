@@ -10,7 +10,7 @@ Activated narrow-beam overhead LED coordinated with existing RRFB installation. 
 - **Type**: Narrow-beam LED spot, 15-25° beam spread
 - **Color temp**: 4000K recommended (see CCT justification below); 3000K fallback if variance not granted
 - **Output**: 4,000-5,000 lumens (~50W LED equivalent)
-- **Target**: 20 lux vertical at 1.5m above crossing surface (IES RP-8-25)
+- **Target**: 20 lux vertical at 1.5m above crossing surface (per IES RP-8-22; verify target unchanged in RP-8-25)
 - **Mounting**: Pole-mounted at 20-25ft, approach side of crossing
 - **Optics**: House-side shield, cutoff fixture to prevent driver glare
 - **Aim**: 5-10° tilt from vertical toward approaching traffic. Pure straight-down aim maximizes horizontal illuminance but produces poor vertical illuminance at 1.5m (the IES RP-8-25 measurement height). Slight tilt directs beam center toward the pedestrian's vertical plane while keeping the fixture well below the driver's sight line. Exact tilt angle to be determined by photometric modeling with selected fixture's .ies file.

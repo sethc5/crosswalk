@@ -249,7 +249,7 @@ The Institute of Public Works Engineering Australasia (IPWEA) adopted a balanced
 
 The City of Palmerston (Northern Territory) was the first Australian council to fully deploy this dual strategy. Two NSW utilities (Ausgrid, Essential Energy) subsequently adopted the same approach.
 
-IPWEA cites a ~20% improvement in main road safety outcomes with 4000K vs 3000K, and references Dr. Ron Gibbons (VTTI) finding a 30-40% increase in hazard recognition distance under higher CCT.
+IPWEA cites a ~20% improvement in main road safety outcomes with 4000K vs 3000K, and references Gibbons (VTTI) reporting increased hazard recognition distance under higher CCT (specific percentage figures from conference presentations have not been independently verified in published literature).
 
 ### Strategy for Nashville
 

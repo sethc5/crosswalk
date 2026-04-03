@@ -443,7 +443,7 @@ Items discovered during codes review that require design changes or site-specifi
 
 ### Design Changes Required
 
-1. **CCT — pursuing 4000K** — Nashville dark sky ordinance BL2020-535 caps at 3000K, but FHWA-HRT-15-047 documents 30-40% improvement in pedestrian detection at 4000K. Three paths to authorization: (a) TDOT state-route jurisdictional argument, (b) BL2022-1088 variance for safety, (c) legislative precedent (Maine LD 1934). Fallback to 3000K with increased lumen output. Fixture spec includes tunable-white/swappable module. **(IN PROGRESS)**
+1. **CCT — pursuing 4000K** — Nashville dark sky ordinance BL2020-535 caps at 3000K, but Research supports improved pedestrian detection at higher CCT (~20% at 4000K vs 3000K per IPWEA). Three paths to authorization: (a) TDOT state-route jurisdictional argument, (b) BL2022-1088 variance for safety, (c) legislative precedent (Maine LD 1934). Fallback to 3000K with increased lumen output. Fixture spec includes tunable-white/swappable module. **(IN PROGRESS)**
 
 2. **MASH-compliant breakaway base** — Any pole within the clear zone on a federal-aid NHS road must have a MASH-tested breakaway or yielding base with FHWA eligibility letter. Must be specified in pole procurement.
 
