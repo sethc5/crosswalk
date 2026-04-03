@@ -1,6 +1,6 @@
 # TSITE Abstract Draft
 
-**For submission to**: Bryan Bartnik, TSITE Vice-President (Bryan.Bartnik@tn.gov)
+**For submission to**: TSITE Vice-President / TDOT Traffic Design
 **Target event**: TSITE/SDITE Spring or Annual Meeting 2026
 
 ---
@@ -17,15 +17,9 @@ In Nashville, four out of five pedestrian fatalities occur on state-controlled a
 
 This presentation proposes a retrofit specification for solar-powered, narrow-beam (15-25°) overhead LED illumination activated simultaneously with existing RRFBs. The cutoff fixture design eliminates driver glare — the primary objection to crosswalk lighting — while delivering 20 lux vertical at 1.5 meters above the crossing surface. Passive radar detection triggers illumination without requiring pedestrian button compliance, and simultaneously captures crossing demand and near-miss data not currently available for most RRFB locations.
 
-The system is designed as expandable infrastructure: 48V DC bus, oversized battery capacity, communications backhaul, and NTCIP-compatible control. Incremental retrofit cost is $2,000-4,500 per crossing — a fraction of the $10,000-15,000 RRFB installation it augments, and negligible against the FHWA statistical value of life.
+The system is designed as expandable infrastructure: 48V DC bus, oversized battery capacity, communications backhaul, and NTCIP-compatible control. The radar detection layer captures crossing demand volume and vehicle yield behavior — data most RRFB locations currently lack. Incremental retrofit cost is $2,000-4,500 per crossing — a fraction of the $10,000-15,000 RRFB installation it augments, and negligible against the FHWA statistical value of life.
 
 The presentation includes specific proposed language for TDOT design guidance to close the "should" to "shall" gap for coordinated crosswalk illumination.
-
----
-
-## Presenter Bio (draft — adjust to your comfort level)
-
-Seth Cope is a licensed electrical professional and facilities practitioner in Nashville, Tennessee. His background spans HVAC systems, electrical design, and infrastructure monitoring. This work originates from direct observation of nighttime pedestrian conditions on Nashville arterials during commercial vehicle operations.
 
 ---
 
@@ -35,4 +29,4 @@ Seth Cope is a licensed electrical professional and facilities practitioner in N
 - Data is Nashville-specific (local relevance for TSITE) with national context
 - The data capture angle (crossing demand + near-miss) elevates it beyond "add a light"
 - The "should to shall" proposed language gives TSITE something actionable to endorse
-- Presenter posture: practitioner-observer with electrical background, not credentialed TE
+- Presenter bio and submission details should be adapted by whoever submits

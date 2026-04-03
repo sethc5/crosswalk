@@ -1,29 +1,27 @@
-# Crosswalk — Claude Code instructions
+# Crosswalk — Project Instructions
 
 ## What this is
 
-Design spec and TSITE abstract for coordinated overhead lighting on RRFB-equipped pedestrian crossings. Not a software project — an infrastructure safety proposal with an engineering spec.
+Open specification for coordinated overhead lighting on RRFB-equipped pedestrian crossings. Not a software project — an infrastructure safety specification with research, regulatory analysis, study design, and implementation plan.
 
-## Origin
+## Structure
 
-Seth observed the problem driving Nashville arterials at night: RRFBs flash to alert drivers, but the crossing itself is dark. The pedestrian is invisible. The gap exists in every standard — MUTCD, TDOT, Nashville — as "should" not "shall."
+- `docs/` — Research, executive summaries, study design, legal/codes reference, implementation plan
+- `spec/` — Full system design specification
+- `hardware/` — BOM, fixture selection, installation notes
+- `internal/` — Non-public strategy docs (gitignored)
 
-## Current state
+## Key conventions
 
-- Research compiled: national data (GHSA), Nashville-specific (crash records, corridors), standards analysis (IES RP-8, MUTCD, TDOT manual, Nashville manual)
-- System design spec: narrow-beam LED, solar, 48V DC, radar detection, data capture, BOM $2K-4K/crossing
-- TSITE abstract drafted for submission to Bryan Bartnik (Bryan.Bartnik@tn.gov)
-- No code — this is a spec/policy project
+- Nashville-specific data and codes are primary, but the spec is written to be portable to any US jurisdiction
+- All costs are 2026 estimates for single-unit procurement
+- "Shall" vs "should" language is deliberate — matches MUTCD/TDOT memo conventions
+- CCT spec is 4000K recommended with 3000K fallback (see CCT justification in system-design.md)
+- Performance-based specification — no single-brand requirements (Tennessee procurement law TCA 12-4-903)
 
-## What's next
+## Editing guidelines
 
-1. Review and polish the abstract
-2. Submit to TSITE for spring/annual meeting
-3. Optionally: prototype one unit for demonstration
-4. Optionally: submit corridor-specific feedback to Nashville Vision Zero / TDOT
-
-## Key files
-
-- `docs/research.md` — all data, standards, contacts, cost estimates
-- `spec/system-design.md` — full technical spec with BOM
-- `docs/tsite-abstract-draft.md` — 250-word abstract ready for submission
+- Keep research citations traceable — include source names, not just claims
+- Maintain the two-audience structure: academic-summary.md for researchers, executive-summary.md for policy/DOT audience
+- internal/ directory is gitignored — keep strategy, contacts, and personal details there
+- This is CC-BY-4.0 licensed — anyone can adapt and use with attribution
