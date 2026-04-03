@@ -83,7 +83,7 @@ Everything in this section applies to installations within Nashville / Davidson 
   - Five lighting zones from rural to urban with different limits
   - Requires BUG ratings per IES TM-15
   - Exemptions: Downtown districts (Core Historic, Core, Upper Broadway, SoBro, etc.) and MNAA property
-- Design impact: Spec recommends 4000K for pedestrian safety (FHWA-HRT-15-047, mesopic vision research). Pursuing TDOT jurisdictional argument and/or BL2022-1088 variance. 3000K fallback if variance denied. See system design spec CCT justification for full research package.
+- Design impact: Spec recommends 4000K for pedestrian safety (mesopic vision research, ~20% detection improvement per IPWEA). Pursuing TDOT jurisdictional argument and/or BL2022-1088 variance. 3000K fallback with increased lumen output if variance denied. See system design spec CCT justification for full research package.
 - Status: **HARD** (except in exempt downtown zones)
 
 **Nashville Historic Zoning Overlay Districts**

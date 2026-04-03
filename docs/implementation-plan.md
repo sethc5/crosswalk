@@ -53,7 +53,7 @@ Nashville's universities bring a different political and funding dynamic. Thousa
 
 6. **Demonstration value**: University administrators, trustees, and donors are high-influence individuals. A visible, working installation near campus creates awareness among people who sit on state boards, donate to political campaigns, and shape policy. The crossing in front of Belmont is a demonstration site that markets itself.
 
-**Recommended university pilot**: Belmont University — Wedgewood Ave at campus entrance. Wedgewood is a 4-lane arterial with documented pedestrian safety concerns, direct campus adjacency, and Belmont has a track record of investing in campus-perimeter improvements. Belmont is also your observation — you've seen this corridor. Vanderbilt's West End Ave is the higher-profile site but involves TDOT (state route) and more complex coordination.
+**Recommended university pilot**: Belmont University — Wedgewood Ave at campus entrance. Wedgewood is a 4-lane arterial with documented pedestrian safety concerns, direct campus adjacency, and Belmont has a track record of investing in campus-perimeter improvements. Vanderbilt's West End Ave is the higher-profile site but involves TDOT (state route) and more complex coordination.
 
 **Parallel track**: University pilots can run in parallel with the Nolensville Pike state-route pilot. Different funding sources, different approval chains, different political pressure. If one stalls, the other moves. If both succeed, the evidence base doubles.
 
@@ -105,7 +105,7 @@ Match for: road width, lane count, speed limit, crossing volume, adjacent land u
 
 1. Submit abstract to TSITE for spring or annual meeting
 2. Present the problem, spec, and draft language to Tennessee traffic engineers
-3. Outcome: professional peer review, Bryan's endorsement, TDOT awareness
+3. Outcome: professional peer review, TDOT awareness and endorsement
 
 ### Phase 2: TDOT Traffic Operations Review (Summer/Fall 2026)
 

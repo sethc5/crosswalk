@@ -5,7 +5,7 @@
 From the system design spec — the fixture must:
 
 1. **Narrow beam**: 15-25° spread to confine light pool to crossing surface
-2. **Cutoff rated**: No light above 90° from nadir (prevents driver glare)
+2. **Cutoff rated**: No direct light above 80° from nadir (prevents driver glare; matches supplemental specification requirement)
 3. **House-side shield**: Blocks spill toward approaching traffic
 4. **Roadway rated**: IP65+ wet location, vibration resistant
 5. **Mounting**: Slotted arm compatible, tool-free fixture access

@@ -38,7 +38,7 @@ A standard cobra-head streetlight near the crossing technically satisfies the cu
 A narrow-beam overhead LED, solar-powered, activated by the same trigger as the RRFB.
 
 - **Cutoff fixture, 15-25° beam**: Light pool confined to crossing surface. Driver sees an illuminated pedestrian, not a light source. Eliminates the glare objection that has historically blocked crosswalk lighting proposals.
-- **4000K color temperature**: FHWA research (HRT-15-047) documents 30-40% improvement in pedestrian detection at 4000K vs 3000K in nighttime conditions. Nashville's dark sky ordinance caps at 3000K, but TDOT state-route installations may be jurisdictionally exempt, and a variance path exists for safety-critical applications. The AMA's concerns about 4000K streetlighting address continuous all-night exposure — this system activates for 15-20 seconds per event.
+- **4000K color temperature**: FHWA research (HRT-15-047) documents significant improvement in pedestrian detection with higher CCT in nighttime conditions (~20% at 4000K vs 3000K per IPWEA; 30-40% at wider CCT gaps per VTTI). Nashville's dark sky ordinance caps at 3000K, but TDOT state-route installations may be jurisdictionally exempt, and a variance path exists for safety-critical applications. The AMA's concerns about 4000K streetlighting address continuous all-night exposure — this system activates for 15-20 seconds per event.
 - **20 lux vertical at 1.5m**: Meets ANSI/IES RP-8-22 — the actual standard for crosswalk illuminance.
 - **Multi-fixture for wide roads**: A single narrow-beam fixture covers ~11ft at 25ft mounting height. Nashville's 4-5 lane arterials need 2-3 fixtures per crossing — one per direction of travel, optional median fixture. Fixtures share a single controller and solar/battery system.
 - **Radar detection**: Triggers automatically (no reliance on push-button compliance), confirms crossing is clear before ramp-down, and captures demand and yield data that most RRFB locations currently lack.
@@ -145,11 +145,9 @@ Everything needed to move this forward without additional research or developmen
 
 11. **University corridor analysis** — Belmont, Vanderbilt, TSU, Fisk, Lipscomb campus-adjacent crossings with institutional funding paths, liability analysis, and parallel pilot track.
 
-12. **University contacts** — Named decision-makers at each institution: campus safety chiefs, VPs for administration, general counsel, government relations, and Vanderbilt engineering faculty for research partnership. Includes approach strategy and recommended contact sequence.
+12. **CCT and mesopic vision research** — FHWA, IES, and VTTI studies supporting 4000K for pedestrian safety, with dark sky variance pathway documentation.
 
-13. **CCT and mesopic vision research** — FHWA, IES, and VTTI studies supporting 4000K for pedestrian safety, with dark sky variance pathway documentation.
-
-14. **TSITE abstract** — 250 words, ready for submission.
+13. **TSITE abstract** — 250 words, ready for submission.
 
 ---
 

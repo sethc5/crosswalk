@@ -373,8 +373,8 @@ This finding supports a 4000K specification rather than 3000K (marginal loss) or
 
 ---
 
-## Key Contacts
+## Key Offices
 
-- **TSITE Vice-President / TDOT Manager of Traffic Design** — abstract submissions go through the TSITE VP
-- **Nashville Vision Zero office** — accepts corridor-specific feedback
-- **TDOT pedestrian safety grant program** — funds RRFBs on state routes
+- **Your state ITE section** — abstract submissions for section meetings
+- **Your city/county Vision Zero or pedestrian safety office** — accepts corridor-specific feedback
+- **Your state DOT pedestrian safety or HSIP program** — funds RRFBs and eligible safety improvements on state routes

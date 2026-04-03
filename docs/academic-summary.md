@@ -50,7 +50,7 @@ This package provides everything needed to design and execute that study:
 | RRFB yielding rate improvement (day, FHWA) | 10-20% to 70-90% |
 | RRFB nighttime-specific yielding improvement | Unknown (research gap) |
 | CMF for coordinated crosswalk illumination | Does not exist |
-| Pedestrian detection improvement at 4000K vs 3000K | 30-40% (FHWA-HRT-15-047) |
+| Pedestrian detection improvement at 4000K vs 3000K | ~20% (IPWEA); 30-40% at wider CCT gaps per VTTI |
 | System cost per crossing (solar retrofit) | $2,000-4,500 |
 | Pilot budget (2 crossings + data collection + contingency) | $13,000-29,000 |
 | FHWA statistical value of life | $11-12 million |

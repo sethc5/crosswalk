@@ -1,7 +1,6 @@
 # TSITE Abstract Draft
 
-**For submission to**: TSITE Vice-President / TDOT Traffic Design
-**Target event**: TSITE/SDITE Spring or Annual Meeting 2026
+**Target**: ITE section meeting (adapt submission details for your section and meeting cycle)
 
 ---
 

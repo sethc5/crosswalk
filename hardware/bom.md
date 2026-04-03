@@ -44,6 +44,10 @@ Extracted from system design spec. Costs are 2026 estimates for single-unit proc
 
 | | Low | High |
 |---|-----|------|
-| Hardware subtotal | $1,230 | $2,450 |
+| Hardware subtotal (single fixture) | $1,230 | $2,450 |
 | Installation labor (1-2 electricians, 1 day) | $800 | $1,500 |
-| **Total per crossing** | **$2,030** | **$3,950** |
+| **Total per crossing (2-lane, single fixture)** | **$2,030** | **$3,950** |
+| Additional fixture for 4+ lane crossing | $300 | $600 |
+| **Total per crossing (4+ lane, multi-fixture)** | **$2,330** | **$4,550** |
+
+Note: Most Nashville target corridors (Nolensville, Murfreesboro, Gallatin Pikes) are 4-5 lanes and require multi-fixture configurations. The $2,000-4,500 range used elsewhere in this package reflects the full spectrum from 2-lane single-fixture to 4+ lane multi-fixture installations.

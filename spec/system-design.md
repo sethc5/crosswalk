@@ -23,7 +23,7 @@ Nashville's dark sky ordinance (BL2020-535) caps outdoor CCT at 3000K. However, 
 
 At nighttime ambient light levels, human vision shifts from photopic (cone-dominated, daytime) to mesopic (mixed rod-and-cone). In mesopic conditions, the eye's peak sensitivity shifts toward shorter (bluer) wavelengths — the Purkinje shift. Higher CCT light sources (4000K) provide more energy in the wavelengths where the mesopic eye is most sensitive.
 
-- **FHWA-HRT-15-047** (2015): Found that in low-speed pedestrian environments, "lighting levels can be scaled based on the light source spectrum." Higher CCT provided 30-40% improvement in pedestrian detection distance and hazard recognition.
+- **FHWA-HRT-15-047** (2015): Found that in low-speed pedestrian environments, "lighting levels can be scaled based on the light source spectrum." Study compared 6000K vs 3500K LEDs and found significant detection improvements with higher CCT.
 - **Terry & Gibbons (Virginia Tech Transportation Institute)**: 6000K LED outperformed 3500K LED by ~30% in pedestrian clothing color recognition distance. The performance difference is largest for dark clothing — exactly the worst case.
 - **IES TM-12-12**: Establishes that mesopic multipliers apply to exterior environments at speeds <25 mph. Pedestrian crossings on arterials are exactly this environment — the approaching driver is (or should be) decelerating to well under 25 mph.
 - **FHWA-HRT-08-053**: White-light sources improved detection of pedestrians in dark clothing at midblock crosswalks. Associates broad-spectrum light with better crosswalk detection performance.
@@ -261,7 +261,9 @@ This concern is real but well-addressed in traffic engineering case law:
 | Wiring, connectors, conduit stub | $50-100 |
 | **Hardware subtotal** | **$1,230-2,450** |
 | Installation labor (1-2 electricians, 1 day) | $800-1,500 |
-| **Total per crossing** | **$2,030-3,950** |
+| **Total per crossing (single fixture, 2-lane road)** | **$2,030-3,950** |
+| Additional fixture for multi-lane (4+ lane) crossing | $300-600 |
+| **Total per crossing (multi-fixture, 4+ lane road)** | **$2,330-4,550** |
 
 ## Compliance Checklist
 
