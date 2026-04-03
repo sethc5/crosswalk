@@ -44,7 +44,7 @@ A narrow-beam overhead LED, solar-powered, activated by the same trigger as the 
 - **Radar detection**: Triggers automatically (no reliance on push-button compliance), confirms crossing is clear before ramp-down, and captures demand and yield data that most RRFB locations currently lack.
 - **Solar-first**: Sidesteps NES utility coordination on state routes. 48V DC bus with LiFePO4 battery, sized for 72 hours without solar charge at December insolation. Conduit stubbed for future hardwire.
 - **Failsafe**: Mechanical timer relay — if the controller fails, push-button still triggers a 20-second illumination hold. System degrades gracefully, never goes dark silently.
-- **Built for Nashville weather**: Rated for -10°F to 105°F, surge protection for 50-60 thunderstorm days/year, ice load tolerant, ASCE 7 wind rated.
+- **Built for Nashville weather**: Rated for -20°F to 110°F (exceeds recorded extremes), surge protection for 50-60 thunderstorm days/year, ice load tolerant, ASCE 7 wind rated.
 
 ## The Cost
 
@@ -53,9 +53,9 @@ A narrow-beam overhead LED, solar-powered, activated by the same trigger as the 
 | Coordinated illumination retrofit (solar, 2-fixture) | **$2,000–4,500** |
 | Standard RRFB installation it augments | $10,000–15,000 |
 | Pedestrian Hybrid Beacon alternative | ~$57,680 |
-| FHWA statistical value of one life | $11–12 million |
+| FHWA statistical value of one life | ~$13.7 million (2024) |
 
-The retrofit is 15–30% of the RRFB cost it improves. One prevented fatality pays for over 2,500 crossings.
+The retrofit is 15–30% of the RRFB cost it improves. One prevented fatality pays for over 3,000 crossings.
 
 ### Maintenance is minimal
 

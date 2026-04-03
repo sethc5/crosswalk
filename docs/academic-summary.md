@@ -53,7 +53,7 @@ This package provides everything needed to design and execute that study:
 | Pedestrian detection improvement at 4000K vs 3000K | ~20% (IPWEA); 30-40% at wider CCT gaps per VTTI |
 | System cost per crossing (solar retrofit) | $2,000-4,500 |
 | Pilot budget (2 crossings + data collection + contingency) | $13,000-29,000 |
-| FHWA statistical value of life | $11-12 million |
+| FHWA statistical value of life | ~$13.7 million (2024) |
 
 ## Connection to Vanderbilt Pedestrian Safety Research
 

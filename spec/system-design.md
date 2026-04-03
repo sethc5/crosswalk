@@ -127,9 +127,9 @@ A single 25° fixture at 25ft covers ~11ft — roughly one travel lane. A standa
 
 ### Nashville Climate Design Conditions
 
-- **Temperature range**: -10°F to 105°F (-23°C to 41°C). LiFePO4 chemistry handles this without active thermal management — unlike NMC lithium cells. Controller and LED driver must be rated for full range.
-- **Humidity**: Nashville averages 70-80% relative humidity year-round. All electronics in sealed NEMA 4X enclosures. Conformal coating on circuit boards. Desiccant packs in controller enclosure.
-- **Ice storms**: Tennessee averages 1-3 significant ice events per winter. Ice loading on solar panel and fixture adds ~5 lb/sq ft. Mounting hardware must accommodate this load. Panel tilt (30-35°) helps shed ice. Fixture lens is warm during operation — ice clears on activation.
+- **Temperature range**: -20°F to 110°F (-29°C to 43°C). Nashville records: -17°F (Jan 1985) and 109°F (Jun 2012). Design range adds margin beyond recorded extremes. LiFePO4 chemistry handles this without active thermal management — unlike NMC lithium cells. Controller and LED driver must be rated for full range.
+- **Humidity**: Nashville averages ~70% relative humidity annually (monthly range ~51-78%, highest in winter). All electronics in sealed NEMA 4X enclosures. Conformal coating on circuit boards. Desiccant packs in controller enclosure.
+- **Ice storms**: Middle Tennessee experiences significant ice events roughly every few years, with minor icing more frequent. ASCE 7-22 ice loading for Nashville (~0.5-0.75 inch radial ice) adds ~5 lb/sq ft to exposed surfaces. Mounting hardware must accommodate this load. Panel tilt (30-35°) helps shed ice. Fixture lens is warm during operation — ice clears on activation.
 - **Wind**: ASCE 7 basic wind speed for Nashville is 115 mph (Risk Category II). Pole and mounting arm must be designed for this. Solar panel is the largest wind sail — flush-mount or low-profile reduces effective area.
 - **Tornado**: Central TN is in tornado alley. Breakaway pole design (standard for roadside infrastructure) limits damage — system is replaceable, not hardened against direct tornado strike. This is consistent with how RRFBs and traffic signals are treated.
 - **UV degradation**: Solar panel frames are anodized aluminum (inherently UV stable). Fixture housing is die-cast aluminum with powder coat. Polycarbonate lens must be UV-stabilized — specify UV-resistant grade or glass lens.

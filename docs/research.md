@@ -7,7 +7,7 @@ Compiled 2026-04-02 from GHSA, FHWA, TDOT, Nashville Metro, IES sources.
 - 76%+ of pedestrian fatalities occur after dark (GHSA)
 - Nighttime fatal pedestrian crashes rose 84% between 2010-2023, vs 28% daytime (GHSA)
 - Pedestrian deaths rose 80% overall 2009-2023; all other traffic fatalities only 13% (GHSA)
-- FHWA statistical value of life: ~$11-12M for safety benefit-cost analysis
+- FHWA statistical value of life: ~~$13.7M (2024 USDOT) for safety benefit-cost analysis
 
 ## CCT and Mesopic Vision Research
 
@@ -16,7 +16,7 @@ The color temperature of the crosswalk luminaire directly affects pedestrian det
 ### Key Studies
 
 - **FHWA-HRT-15-047** (2015): In low-speed pedestrian environments, "lighting levels can be scaled based on the light source spectrum." No spectral effect for high-speed roadways, but explicit benefit for pedestrian crossings. [Source](https://www.fhwa.dot.gov/publications/research/safety/15047/012.cfm)
-- **Terry & Gibbons (VTTI)**: 6000K LED outperformed 3500K LED by ~30% in pedestrian clothing color recognition distance. Strongest effect for dark clothing — the worst case. Gibbons reported 30-40% increase in hazard recognition distance with higher CCT.
+- **Terry & Gibbons (VTTI)**: Higher CCT LEDs outperformed lower CCT in pedestrian detection studies. FHWA-HRT-15-047 found LED clothing color recognition at ~24.2m vs HPS at ~19.8m (~22% improvement). Gibbons has reported increased hazard recognition distance with higher CCT at IPWEA conferences, though specific percentage figures from those presentations have not been independently verified in published literature.
 - **IES TM-12-12**: Mesopic multipliers apply to exterior environments at speeds <25 mph. Pedestrian crossings are exactly this environment.
 - **FHWA-HRT-08-053**: White-light (broad-spectrum) sources improved detection of pedestrians in denim at midblock crosswalks. [Source](https://www.fhwa.dot.gov/publications/research/safety/08053/)
 - **2025 ScienceDirect study**: Visual performance stable across 1800K-4000K, deficit at 5000K. Supports 4000K as the optimal ceiling.
@@ -163,7 +163,7 @@ Nashville's Vision Zero Action Plan identifies pedestrian safety on high-speed a
 | Standard RRFB install | $10,000-15,000 per crossing |
 | Pedestrian Hybrid Beacon (HAWK) | ~$57,680 average |
 | Coordinated overhead LED retrofit (solar) | $2,000-4,500 incremental |
-| Value of statistical life (FHWA) | $11-12M |
+| Value of statistical life (FHWA) | ~$13.7M (2024 USDOT) |
 
 One prevented fatality at $3,000/crossing makes the benefit-cost ratio absurd.
 
