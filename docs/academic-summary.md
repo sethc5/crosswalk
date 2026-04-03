@@ -41,6 +41,10 @@ This package provides everything needed to design and execute that study:
 
 9. **[implementation-plan.md](implementation-plan.md)** — Pilot site selection criteria and candidates (including university corridors), stakeholder map, approval pathway, evaluation methodology, budget, timeline
 
+**Audit and review scaffolds:**
+
+10. **[audit/](../audit/)** — Photometric verification (hand calcs with fixture tilt finding), study design self-audit against FHWA CMF Clearinghouse, electrical PE review checklist, structural review checklist, site-specific screening template, Buy America compliance matrix, legal review template, IRB exemption application draft
+
 ## Key Numbers
 
 | | |
@@ -50,7 +54,7 @@ This package provides everything needed to design and execute that study:
 | RRFB yielding rate improvement (day, FHWA) | 10-20% to 70-90% |
 | RRFB nighttime-specific yielding improvement | Unknown (research gap) |
 | CMF for coordinated crosswalk illumination | Does not exist |
-| Pedestrian detection improvement at 4000K vs 3000K | ~20% (IPWEA); 30-40% at wider CCT gaps per VTTI |
+| Pedestrian detection improvement at 4000K vs 3000K | ~20% (IPWEA); higher at wider CCT gaps (VTTI, unverified in published literature) |
 | System cost per crossing (solar retrofit) | $2,000-4,500 |
 | Pilot budget (2 crossings + data collection + contingency) | $13,000-29,000 |
 | FHWA statistical value of life | ~$13.7 million (2024) |

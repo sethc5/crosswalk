@@ -47,7 +47,7 @@ Nashville's universities bring a different political and funding dynamic. Thousa
 
 3. **Liability pressure**: A student fatality on a crossing adjacent to campus creates enormous institutional, legal, and reputational risk. University general counsel offices are highly motivated to support infrastructure improvements that reduce this exposure.
 
-4. **Political leverage**: Parents from across the country send their children to Nashville. A pedestrian fatality involving a Vanderbilt or Belmont student generates national media attention and political pressure that a fatality on Nolensville Pike — tragically — does not. This is an uncomfortable truth but a real lever for policy change.
+4. **Visibility and accountability**: University campuses have identifiable, concentrated pedestrian populations with institutional advocacy structures. Safety improvements at campus-adjacent crossings receive more institutional and media attention, creating demonstration value that benefits all corridors.
 
 5. **Research partnership**: Vanderbilt's Civil & Environmental Engineering department could provide academic rigor to the evaluation methodology — student research projects, faculty co-authorship on published results, access to traffic modeling tools. This transforms a municipal pilot into a peer-reviewed study.
 

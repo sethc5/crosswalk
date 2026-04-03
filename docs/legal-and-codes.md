@@ -78,7 +78,7 @@ Everything in this section applies to installations within Nashville / Davidson 
 - Authority: Metro Nashville
 - Governs: Outdoor lighting design and operation for light pollution reduction, consistent with DarkSky International guidelines.
 - Key requirements:
-  - Maximum color temperature: **3000K** (our spec adjusted to comply)
+  - Maximum color temperature: **3000K** (specification recommends 4000K with 3000K fallback; see CCT justification)
   - Controls to dim or turn off when not in use (activated-only design complies)
   - Five lighting zones from rural to urban with different limits
   - Requires BUG ratings per IES TM-15
@@ -124,7 +124,7 @@ Everything in this section applies to installations within Nashville / Davidson 
 **TDOT Lighting Design Manual**
 - Authority: TDOT
 - Governs: All roundabouts and mid-block pedestrian crossings **shall** include lighting design per Traffic Operations Memo 2022. Silent on coordinated activation, beam geometry, fixture type.
-- Status: **HARD** for the lighting mandate; silent on implementation detail (the gap we're filling)
+- Status: **HARD** for the lighting mandate; silent on implementation detail (the gap this specification addresses)
 
 **TDOT Traffic Design Manual — Chapter 15 (Roadway and Intersection Lighting)**
 - Authority: TDOT
@@ -455,7 +455,7 @@ Items discovered during codes review that require design changes or site-specifi
 
 6. **Buy America compliance** — If federal funds used, all manufactured products must meet domestic content requirements. Must verify domestic manufacturing for fixture, solar panel, battery, controller.
 
-7. **TDOT encroachment permit** — Even solar-powered, off-grid installations in TDOT ROW require a Use & Occupancy Permit per Tenn. Comp. R. & Regs. 1680-06-01. Cannot skip this even though we're off-grid.
+7. **TDOT encroachment permit** — Even solar-powered, off-grid installations in TDOT ROW require a Use & Occupancy Permit per Tenn. Comp. R. & Regs. 1680-06-01. Required even for solar-powered, off-grid installations.
 
 ### Site-Specific Screening Required (Per Crossing)
 

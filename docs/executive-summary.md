@@ -38,7 +38,7 @@ A standard cobra-head streetlight near the crossing technically satisfies the cu
 A narrow-beam overhead LED, solar-powered, activated by the same trigger as the RRFB.
 
 - **Cutoff fixture, 15-25° beam**: Light pool confined to crossing surface. Driver sees an illuminated pedestrian, not a light source. Eliminates the glare objection that has historically blocked crosswalk lighting proposals.
-- **4000K color temperature**: FHWA research (HRT-15-047) documents significant improvement in pedestrian detection with higher CCT in nighttime conditions (~20% at 4000K vs 3000K per IPWEA; 30-40% at wider CCT gaps per VTTI). Nashville's dark sky ordinance caps at 3000K, but TDOT state-route installations may be jurisdictionally exempt, and a variance path exists for safety-critical applications. The AMA's concerns about 4000K streetlighting address continuous all-night exposure — this system activates for 15-20 seconds per event.
+- **4000K color temperature**: FHWA research (HRT-15-047) documents significant improvement in pedestrian detection with higher CCT in nighttime conditions (~20% at 4000K vs 3000K per IPWEA; greater improvement at wider CCT gaps per VTTI conference reports, not yet verified in published literature). Nashville's dark sky ordinance caps at 3000K, but TDOT state-route installations may be jurisdictionally exempt, and a variance path exists for safety-critical applications. The AMA's concerns about 4000K streetlighting address continuous all-night exposure — this system activates for 15-20 seconds per event.
 - **20 lux vertical at 1.5m**: Meets ANSI/IES RP-8-25 — the actual standard for crosswalk illuminance.
 - **Multi-fixture for wide roads**: A single narrow-beam fixture covers ~11ft at 25ft mounting height. Nashville's 4-5 lane arterials need 2-3 fixtures per crossing — one per direction of travel, optional median fixture. Fixtures share a single controller and solar/battery system.
 - **Radar detection**: Triggers automatically (no reliance on push-button compliance), confirms crossing is clear before ramp-down, and captures demand and yield data that most RRFB locations currently lack.
@@ -95,7 +95,7 @@ Nashville's universities create a separate, potentially faster path. Belmont, Va
 
 - **Institutional funding** that moves faster than municipal budgets (Vanderbilt endowment: ~$10.9B)
 - **Liability pressure** — a student fatality on a campus-adjacent crossing generates institutional, legal, and national media consequences
-- **Political leverage** — parents from across the country send money to Nashville. That creates attention municipal corridors don't get.
+- **Visibility** — campus-adjacent crossings serve a concentrated, identifiable population, making safety improvements easier to justify and evaluate
 - **Research partnership** — Vanderbilt Civil Engineering could co-author the evaluation study, adding academic rigor and publication credibility
 
 Vanderbilt's Civil & Environmental Engineering department is already running a pedestrian safety study on campus using smartwatch data — students specifically flagged the need for better crossing illumination. That research is the justification; this system is the intervention.
@@ -106,7 +106,7 @@ University pilots can run in parallel with state-route pilots. Different funding
 
 Corridor-wide deployment on Nashville's high-crash arterials and university perimeters. Nashville NDOT adopts for local roads. TSITE recommends to ITE nationally. Other state DOTs reference Tennessee's specification.
 
-Tennessee writes the standard. Everyone else follows.
+A Tennessee-originated specification with field evaluation data has a clear path to national adoption through ITE and the FHWA CMF Clearinghouse.
 
 ## Why This Works Politically
 

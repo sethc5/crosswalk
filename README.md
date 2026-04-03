@@ -45,6 +45,10 @@ Start with **[executive-summary.md](docs/executive-summary.md)** — problem, ga
 - [legal-and-codes.md](docs/legal-and-codes.md) — 50+ applicable codes and regulations catalogued by jurisdiction and enforceability (Nashville-specific, but the federal/national sections apply everywhere)
 - [implementation-plan.md](docs/implementation-plan.md) — Pilot site selection, stakeholder mapping, approval pathway, evaluation methodology, budget, timeline
 
+### Audit and review scaffolds
+
+- [audit/](audit/) — Photometric verification, study design self-audit against FHWA CMF Clearinghouse, electrical PE review checklist, structural review checklist, site-specific screening template, Buy America compliance matrix, legal review template, IRB exemption draft
+
 ## Key Numbers
 
 | | |
@@ -52,7 +56,7 @@ Start with **[executive-summary.md](docs/executive-summary.md)** — problem, ga
 | System cost per crossing (solar retrofit) | $2,000-4,500 |
 | Standard RRFB installation it augments | $10,000-15,000 |
 | FHWA statistical value of one life | ~$13.7 million (2024) |
-| Pedestrian detection improvement at 4000K vs 3000K | ~20% (IPWEA); 30-40% at wider CCT gaps (VTTI) |
+| Pedestrian detection improvement at 4000K vs 3000K | ~20% (IPWEA); higher at wider CCT gaps (VTTI, unverified) |
 | Pilot budget (2 crossings + evaluation) | $13,000-29,000 |
 
 One prevented fatality pays for over 3,000 crossings.

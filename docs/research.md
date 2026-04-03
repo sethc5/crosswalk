@@ -7,7 +7,7 @@ Compiled 2026-04-02 from GHSA, FHWA, TDOT, Nashville Metro, IES sources.
 - 76%+ of pedestrian fatalities occur after dark (GHSA)
 - Nighttime fatal pedestrian crashes rose 84% between 2010-2023, vs 28% daytime (GHSA)
 - Pedestrian deaths rose 80% overall 2009-2023; all other traffic fatalities only 13% (GHSA)
-- FHWA statistical value of life: ~~$13.7M (2024 USDOT) for safety benefit-cost analysis
+- FHWA statistical value of life: ~$13.7M (2024 USDOT) for safety benefit-cost analysis
 
 ## CCT and Mesopic Vision Research
 
@@ -165,7 +165,7 @@ Nashville's Vision Zero Action Plan identifies pedestrian safety on high-speed a
 | Coordinated overhead LED retrofit (solar) | $2,000-4,500 incremental |
 | Value of statistical life (FHWA) | ~$13.7M (2024 USDOT) |
 
-One prevented fatality at $3,000/crossing makes the benefit-cost ratio absurd.
+One prevented fatality at $3,000/crossing yields a benefit-cost ratio exceeding 3,000:1.
 
 ## Resistance / Friction Points
 

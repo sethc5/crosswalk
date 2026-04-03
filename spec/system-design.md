@@ -267,7 +267,7 @@ This concern is real but well-addressed in traffic engineering case law:
 
 ## Compliance Checklist
 
-- [x] ANSI/IES RP-8-25-22 — 20 lux vertical at 1.5m, 14 lux horizontal *(met by optical design: 4-5K lumen narrow beam at 20-25ft mounting height)*
+- [x] ANSI/IES RP-8-25 — 20 lux vertical at 1.5m, 14 lux horizontal *(met by optical design: 4-5K lumen narrow beam at 20-25ft mounting height)*
 - [x] MUTCD 11th Edition Chapter 4L — RRFB device standards *(system augments, does not modify RRFB operation)*
 - [ ] TDOT Lighting Design Manual — mandatory lighting on mid-block crossings *(requires TDOT review of fixture and placement)*
 - [ ] Nashville Streets and Pathways Lighting Manual *(requires NDOT review for local installations)*
@@ -293,7 +293,7 @@ The following is proposed as supplemental specification to the existing TDOT lig
 >
 > Where a Rectangular Rapid Flash Beacon (RRFB) is installed at a midblock or uncontrolled crosswalk, the lighting design required by [Traffic Operations Memo 2022 / TDOT Lighting Design Manual] **shall** include a dedicated crosswalk luminaire meeting the following:
 >
-> 1. **Illuminance**: Minimum 20 lux vertical at 1.5 meters above the crossing surface and 14 lux average maintained horizontal illuminance across the marked crosswalk, per ANSI/IES RP-8-25-22 and consistent with AASHTO Roadway Lighting Design Guide recommendations.
+> 1. **Illuminance**: Minimum 20 lux vertical at 1.5 meters above the crossing surface and 14 lux average maintained horizontal illuminance across the marked crosswalk, per ANSI/IES RP-8-25 and consistent with AASHTO Roadway Lighting Design Guide recommendations.
 >
 > 2. **Coordinated activation**: The crosswalk luminaire **shall** activate simultaneously with the RRFB upon any triggering event (push-button, passive detection, or both) and **shall** remain at full output for the duration of the pedestrian crossing interval.
 >
