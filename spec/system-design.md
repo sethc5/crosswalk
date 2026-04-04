@@ -85,7 +85,24 @@ A single 25° fixture at 25ft covers ~11ft — roughly one travel lane. A standa
 
 **Uniformity**: Multiple overlapping fixtures actually improve uniformity ratio across the crossing width — easier to meet the IES RP-8-25 max 4:1 uniformity requirement than with a single wide-beam fixture.
 
-### FHWA Placement Specification (FHWA-HRT-08-053)
+### Recommended Placement and Coverage Specification
+
+Based on FHWA-HRT-08-053 findings, real-world RRFB pole geometry, and the coverage analysis above, this specification recommends:
+
+| Parameter | Requirement |
+|-----------|------------|
+| **Mounting height** | 25-30 ft (7.6-9.1m). Below 25ft reduces coverage area; above 30ft reduces illuminance below 20 lux at practical lumen outputs. |
+| **Pole offset from crosswalk** | 10-20 ft (3-6m) preferred per FHWA. If using existing RRFB pole at 20-30 ft offset, array configuration with split-aim emitters is required to compensate. |
+| **Luminaire count per approach** | Minimum 1 per approach direction. |
+| **Coverage width per luminaire/array** | 19-25 ft (6-7.6m) at 20 lux vertical. |
+| **Total coverage** | 20 lux vertical at 1.5m across 100% of marked crosswalk width. |
+| **Full-body vertical illuminance** | Emitters aimed to illuminate pedestrians at 1.5m height (torso/face) across the full crossing width, not just the near half. Split-aim arrays or two-sided installation required on crossings wider than 25 ft. |
+| **Uniformity ratio** | Maximum 4:1 (brightest to dimmest point across crosswalk width), per IES RP-8-25. |
+| **Subsequent lighting** | No continuous roadway luminaire within 10x the crosswalk luminaire offset distance (per FHWA positive contrast guidance). Coordinate with existing streetlighting to avoid washing out the activated illumination effect. |
+
+**Site-specific photometric modeling is required** for each crossing to verify these targets are met with the selected fixture or array at the actual pole position and mounting height. Hand calculations and this specification establish the design envelope; AGi32 or equivalent modeling with manufacturer .ies files confirms compliance.
+
+### FHWA Placement Reference (FHWA-HRT-08-053)
 
 FHWA's midblock crosswalk lighting study establishes specific placement parameters:
 
@@ -131,8 +148,13 @@ This offset geometry actually benefits the design:
 **Vertical coverage on wide roads**: A single array on a pole 25ft ahead and 20ft high lights a pedestrian's full body at the near edge of the crosswalk (39° angle) but only legs-to-waist at 50ft (22°) and knees at 70ft (16°). On a 4-5 lane road, a single-side array cannot illuminate a pedestrian's upper body at the far edge. Solutions:
 
 1. **Two-sided installation** (already specified for 4+ lane roads): Each side's array covers its near half. The pedestrian is always within ~30ft of at least one array regardless of position in the crosswalk.
-2. **Split aim within the array**: Not all emitters aim at the ground plane. Divide the array into zones — lower emitters aimed at the pavement (horizontal illuminance, crosswalk visibility), upper emitters aimed at 1.5m height at mid-crossing and far edge (vertical illuminance on pedestrian's torso and face). This provides upper-body illumination across the full crossing width even from one side.
-3. **Both**: Two-sided installation with split-aim arrays provides redundant full-body coverage. Each array's high-aim emitters cover the far half that the other array's low-aim emitters miss.
+2. **Split aim within the array — dual-zone targeting**: Divide the array into two aim zones with distinct purposes:
+   - **Zone A (pavement)**: Lower emitters aimed at the crossing surface. Creates the bright pool visual cue — the driver sees "something is different here" before they identify the person. Satisfies the IES RP-8-25 horizontal illuminance target (14 lux).
+   - **Zone B (pedestrian body)**: Upper emitters aimed at a band 3-6 ft (0.9-1.8m) above the crossing surface — waist to head height. Lights the pedestrian directly rather than relying on pavement reflection. This is how stage lighting works: you light the performer, not the floor. Far more efficient use of lumens for the vertical illuminance target (20 lux at 1.5m) because the light goes directly to the measurement plane instead of hitting pavement and reflecting with massive loss.
+   
+   The split-aim approach satisfies both IES RP-8-25 targets simultaneously: horizontal from Zone A, vertical from Zone B. Each zone can be independently calibrated during commissioning.
+
+3. **Both**: Two-sided installation with split-aim arrays provides redundant full-body coverage. Each side's Zone B emitters reach across the crossing to illuminate pedestrians at the far edge where the other side's Zone A (pavement) emitters dominate.
 
 **Photometric modeling note**: The angled throw from 20-30ft offset changes the illuminance calculation significantly from the straight-down model in the photometric verification (audit/photometric-verification.md). The inverse-square-law distance is longer (hypotenuse, not just height), but the angle of incidence creates far better vertical illuminance at the near edge. Modeling must verify coverage across the full crossing width at both ground level and 1.5m height, not just at the near edge. This is the critical modeling task for array design.
 
