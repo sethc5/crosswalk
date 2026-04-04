@@ -85,6 +85,18 @@ A single 25° fixture at 25ft covers ~11ft — roughly one travel lane. A standa
 
 **Uniformity**: Multiple overlapping fixtures actually improve uniformity ratio across the crossing width — easier to meet the IES RP-8-25 max 4:1 uniformity requirement than with a single wide-beam fixture.
 
+### FHWA Placement Specification (FHWA-HRT-08-053)
+
+FHWA's midblock crosswalk lighting study establishes specific placement parameters:
+
+- **Minimum offset**: 10 ft (3m) ahead of the crosswalk on the approach side
+- **Optimal offset for 20 lux**: 14-20 ft (4.25-6m) ahead
+- **Mounting height**: 28 ft (8.5m) — at 33 ft, a standard cobra-head cannot achieve 20 lux
+- **Coverage at optimal placement**: 20 lux vertical across only 19 ft (5.8m) of crosswalk width with a single luminaire
+- **Subsequent luminaire rule**: The next luminaire in a continuous lighting layout should be at least 10x farther from the crosswalk than the crosswalk luminaire (prevents competing light sources from washing out the positive contrast effect)
+
+**Implication for Nashville RRFB poles**: Observed pole setbacks of 20-30 ft exceed FHWA's optimal 14-20 ft range. This increases throw distance and reduces illuminance at the crossing, further supporting the multi-fixture or array approach for achieving 20 lux from existing pole positions.
+
 ### Pole Offset Reality — Angled Array Configuration
 
 In most real-world RRFB installations, the sign/beacon pole is mounted 20-30 feet ahead of the crosswalk on the approach side — not directly above it. This means any fixture mounted on the existing pole must aim backward and downward toward the crossing at a significant angle (30-45° from vertical, depending on setback and mounting height).
