@@ -116,7 +116,13 @@ This offset geometry actually benefits the design:
 - Controller drives entire array from single activation signal
 - Each emitter module field-replaceable without tools or replacing the array housing
 
-**Photometric modeling note**: The angled throw from 20-30ft offset changes the illuminance calculation significantly from the straight-down model in the photometric verification (audit/photometric-verification.md). The inverse-square-law distance is longer (hypotenuse, not just height), but the angle of incidence creates far better vertical illuminance. Modeling with actual emitter IES files at the specific pole-to-crosswalk geometry is critical before array design is finalized.
+**Vertical coverage on wide roads**: A single array on a pole 25ft ahead and 20ft high lights a pedestrian's full body at the near edge of the crosswalk (39° angle) but only legs-to-waist at 50ft (22°) and knees at 70ft (16°). On a 4-5 lane road, a single-side array cannot illuminate a pedestrian's upper body at the far edge. Solutions:
+
+1. **Two-sided installation** (already specified for 4+ lane roads): Each side's array covers its near half. The pedestrian is always within ~30ft of at least one array regardless of position in the crosswalk.
+2. **Split aim within the array**: Not all emitters aim at the ground plane. Divide the array into zones — lower emitters aimed at the pavement (horizontal illuminance, crosswalk visibility), upper emitters aimed at 1.5m height at mid-crossing and far edge (vertical illuminance on pedestrian's torso and face). This provides upper-body illumination across the full crossing width even from one side.
+3. **Both**: Two-sided installation with split-aim arrays provides redundant full-body coverage. Each array's high-aim emitters cover the far half that the other array's low-aim emitters miss.
+
+**Photometric modeling note**: The angled throw from 20-30ft offset changes the illuminance calculation significantly from the straight-down model in the photometric verification (audit/photometric-verification.md). The inverse-square-law distance is longer (hypotenuse, not just height), but the angle of incidence creates far better vertical illuminance at the near edge. Modeling must verify coverage across the full crossing width at both ground level and 1.5m height, not just at the near edge. This is the critical modeling task for array design.
 
 ### Enhanced Options
 - **Retroreflective crosswalk markings**: Cheap force multiplier — pop hard under the directed beam array
