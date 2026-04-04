@@ -11,8 +11,8 @@ The beacon tells drivers a crossing exists. The light lets them see the person i
 ## The Problem
 
 - 76% of pedestrian fatalities in the US occur after dark (GHSA)
-- Nighttime pedestrian fatalities rose **84%** from 2010-2023
-- RRFBs increase daytime yielding to 70-90%, but nighttime-specific data is sparse — the beacon says "someone is crossing" while the pedestrian remains invisible
+- Nighttime pedestrian fatalities rose **84%** from 2010-2023 (GHSA)
+- RRFBs increase daytime yielding to 70-90% (FHWA RRFB Informational Report; NCHRP Report 841), but nighttime-specific data is sparse — the beacon says "someone is crossing" while the pedestrian remains invisible
 - No Crash Modification Factor exists for coordinated crosswalk illumination
 
 The MUTCD 11th Edition with Revision 1 (2025) says lighting *should* accompany RRFBs. Multiple state DOTs require lighting at midblock crossings. But no standard specifies coordinated activation, beam geometry, illuminance targets, or clearing integration.

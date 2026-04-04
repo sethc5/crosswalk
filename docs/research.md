@@ -20,7 +20,7 @@ The color temperature of the crosswalk luminaire directly affects pedestrian det
 - **IES TM-12-12**: Mesopic multipliers apply to exterior environments at speeds <25 mph. Pedestrian crossings are exactly this environment.
 - **FHWA-HRT-08-053**: White-light (broad-spectrum) sources improved detection of pedestrians in denim at midblock crosswalks. [Source](https://www.fhwa.dot.gov/publications/research/safety/08053/)
 - **2025 ScienceDirect study**: Visual performance stable across 1800K-4000K, deficit at 5000K. Supports 4000K as the optimal ceiling.
-- **IPWEA (Australia)**: Formally recommends 4000K for main roads and pedestrian crossings, citing ~20% safety improvement.
+- **IPWEA (Australia)**: Formally recommends 4000K for main roads and pedestrian crossings, citing ~20% safety improvement. (IPWEA, "LED Street Lighting: 3000K vs 4000K," insite.ipwea.org, 2024)
 
 ### Nashville Dark Sky Ordinance Tension
 
@@ -36,12 +36,14 @@ The American Medical Association (2016) recommended communities use 3000K or bel
 
 ## Nashville Specific
 
-- 4 out of 5 pedestrian fatalities on wide, state-controlled arterials >30mph
-- 71% on roads with 4+ lanes
-- Most fatalities 6pm-6am
-- Pedestrian fatalities on state routes up 17% in 2023 (24→28)
-- Fatalities rose from 14 (2010) to 39 (2020)
-- $13M Safe Streets for All grant for Nolensville Pike
+Sources: Walk Bike Nashville Vision Zero analysis (2020, 2023); Nashville Metro Police crash records; USDOT SS4A award announcement.
+
+- 4 out of 5 pedestrian fatalities on wide, state-controlled arterials >30mph (Walk Bike Nashville, 2020 analysis)
+- 71% on roads with 4+ lanes (Walk Bike Nashville, 2020 analysis)
+- Most fatalities 6pm-6am (Nashville Metro Police crash records)
+- Pedestrian fatalities on state routes up 17% in 2023 (24→28) (Walk Bike Nashville, 2023 Vision Zero analysis)
+- Fatalities rose from 14 (2010) to 39 (2020) (Walk Bike Nashville, 2020 analysis)
+- $13M Safe Streets for All grant for Nolensville Pike (USDOT SS4A award, Nashville.gov)
 - Key corridors: Nolensville Pike, Murfreesboro Pike, Gallatin Pike
 
 ## Standards Landscape
@@ -74,7 +76,7 @@ Understanding what RRFBs achieve alone — and where they fall short — frames 
 
 ### Crash Reduction
 
-- FHWA estimates 47% reduction in pedestrian crashes at RRFB-equipped crossings (combined day/night)
+- FHWA estimates 47% reduction in pedestrian crashes at RRFB-equipped crossings (combined day/night) (NCHRP Report 841; FHWA Proven Safety Countermeasures fact sheet)
 - Nighttime-specific crash reduction data for RRFBs alone is limited — most studies aggregate day and night
 - The 76% of fatalities occurring after dark suggests the nighttime crash reduction from RRFBs alone is significantly less than 47%
 
@@ -160,8 +162,8 @@ Nashville's Vision Zero Action Plan identifies pedestrian safety on high-speed a
 
 | System | Cost |
 |--------|------|
-| Standard RRFB install | $10,000-15,000 per crossing |
-| Pedestrian Hybrid Beacon (HAWK) | ~$57,680 average |
+| Standard RRFB install | $10,000-15,000 per crossing (FHWA Proven Safety Countermeasures; typical contractor-installed range) |
+| Pedestrian Hybrid Beacon (HAWK) | ~$57,680 average (FHWA Pedestrian Hybrid Beacon Guide, average treatment cost) |
 | Coordinated overhead LED retrofit (solar) | $2,000-4,500 incremental |
 | Value of statistical life (FHWA) | ~$13.7M (2024 USDOT) |
 

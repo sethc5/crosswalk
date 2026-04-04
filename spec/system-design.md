@@ -181,7 +181,7 @@ This offset geometry actually benefits the design:
 - **Clearing detection**: Radar or IR confirms crossing is clear before ramp-down
 - **Failsafe**: If comms/controller fail, reverts to basic push-button + fixed timer relay
 
-### NEC Compliance Notes
+### NEC Compliance Notes (NFPA 70, National Electrical Code — Nashville: NEC 2023; Tennessee: NEC 2017)
 
 - **48V DC bus classification**: 48V DC exceeds NEC Art. 411 low-voltage threshold (25V for listed low-voltage lighting) and Art. 725 Class 2 limit (30V / 100VA). Standard wiring methods per NEC Art. 300 are required — conductors in conduit or listed cable assemblies rated for wet locations, not low-voltage cable.
 - **NEC Art. 690.12 rapid shutdown**: A single 48V-nominal solar panel has open-circuit voltage (Voc) of approximately 55-60V, which is below the 80V threshold that triggers rapid shutdown within the 1-foot array boundary. **Do not string panels in series** — a 2-panel series string would produce Voc of 110-120V, triggering rapid shutdown requirements. The spec assumes a single panel per installation; the charge controller serves as the disconnect for the PV source circuit per Art. 690.13.
@@ -340,7 +340,7 @@ This concern is real but well-addressed in traffic engineering case law:
 | Microcontroller + enclosure | $100-200 |
 | Timer relay (failsafe backup) | $30-50 |
 | Mounting hardware + shield | $100-200 |
-| MASH-compliant breakaway base (if new pole in clear zone) | $200-400 |
+| MASH-compliant breakaway base per AASHTO MASH (2016) (if new pole in clear zone) | $200-400 |
 | Wiring, connectors, conduit stub | $50-100 |
 | **Hardware subtotal** | **$1,230-2,450** |
 | Installation labor (1-2 electricians, 1 day) | $800-1,500 |
