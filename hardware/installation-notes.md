@@ -22,7 +22,11 @@ Assumes existing RRFB pole and push-button already installed.
 
 9. **Commissioning**: Verify activation timing, clearing detection (if radar equipped), light levels at crossing surface and at 1.5m height across full crosswalk width, data backhaul. For arrays: verify individual emitter aim and zone coverage.
 
-## Pole Loading
+## Pole Design and Loading
+
+**Structural standard**: New poles must comply with AASHTO LTS-6 (6th Edition with 2025 Interim Revisions) for wind loading, fatigue, foundation, and material specifications. Existing RRFB poles: assume original LTS-6 compliance but verify reserve capacity for additional load.
+
+**MASH compliance**: If the pole is within the AASHTO Roadside Design Guide clear zone on a federal-aid NHS route, the pole base must be MASH-compliant (breakaway or yielding) with an FHWA eligibility letter. On curbed urban roads (Nashville arterials), minimum 1.5ft lateral offset from face of curb. Maintain 4ft minimum clear sidewalk width adjacent to pole per PROWAG.
 
 Key consideration for retrofit: existing RRFB poles may not be rated for additional wind load from solar panel + luminaire/array. Check:
 
@@ -65,3 +69,38 @@ This is the same philosophy as RRFB maintenance: keep spares, monitor remotely, 
 - **Solar-only**: Minimal NES involvement — no utility power connection, no metering, no right-of-way electrical work
 - **Future grid tie**: Conduit stub allows later connection; will require NES coordination, meter, and possibly interconnection agreement at that time
 - **State routes**: TDOT approval required regardless of power source
+
+## Pre-Construction Permit Checklist
+
+Complete before any installation work begins. Requirements vary by road owner and funding source.
+
+**All installations:**
+- [ ] Site-specific screening completed (audit/site-screening-template.md)
+- [ ] Photometric modeling completed with selected luminaire/array .ies files at actual pole geometry
+
+**State routes (TDOT):**
+- [ ] TDOT Use & Occupancy Permit (Tenn. Comp. R. & Regs. 1680-06-01) — required even for solar/off-grid
+- [ ] TDOT plan review of fixture, placement, and electrical design
+
+**Nashville city roads (NDOT):**
+- [ ] NDOT Encroachment Permit (NDOT Right-of-Way Permits, 615-862-8782)
+- [ ] Metro ROW permit (Metro Code Title 13, Ch. 13.08)
+- [ ] Excavation permit if new pole foundation (Metro Code Title 13, Ch. 13.20)
+
+**All Nashville installations:**
+- [ ] Nashville CAEP (Electrical Photovoltaic) permit
+- [ ] Licensed and Nashville-registered electrical contractor (State CE/CE-B/CE-H classification + Nashville registration, $300K min general liability)
+- [ ] NESC clearance verification if near NES infrastructure
+- [ ] Floodplain screening — if in SFHA, all electrical equipment on pole above BFE + 4ft
+- [ ] Historic overlay screening — Historic Zoning Commission approval if in overlay district
+
+**If federal funds used (HSIP, SS4A, RAISE, PROTECT):**
+- [ ] NEPA Categorical Exclusion documentation
+- [ ] MASH-compliant breakaway base with FHWA eligibility letter (if NHS route)
+- [ ] Buy America compliance verification for all manufactured components
+- [ ] Section 106 SHPO consultation (if near historic properties)
+
+**During installation:**
+- [ ] Temporary traffic control plan per MUTCD Part 6
+- [ ] TOSHA/OSHA fall protection for pole work at 25-30ft
+- [ ] Call 811 before excavation (underground utility locate)

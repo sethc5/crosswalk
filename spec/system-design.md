@@ -12,8 +12,9 @@ Activated overhead LED illumination coordinated with existing RRFB installation.
 - **Output**: 4,000-5,000 lumens total (~50W equivalent), whether from single fixture or distributed across array
 - **Target**: 20 lux vertical at 1.5m across 100% of marked crosswalk width (per IES RP-8-25; verify illuminance targets unchanged from RP-8-22). 14 lux horizontal average maintained on crossing surface.
 - **Mounting**: Pole-mounted at 25-30ft, approach side of crossing (see Recommended Placement Specification)
-- **Optics**: Cutoff-rated. Single fixture: house-side shield, max 25° beam. Array: individual emitters 15-25° each, aimed per dual-zone targeting.
+- **Optics**: Cutoff-rated. Single fixture: house-side shield, max 25° beam. Array: individual emitters 15-25° each, aimed per dual-zone targeting. BUG rating per IES TM-15-20: maximum B2-U0-G1 (zero uplight, minimal backlight and glare). Required for Nashville dark sky ordinance compliance.
 - **Aim**: Determined by pole offset geometry. On existing RRFB poles (typically 20-30ft ahead of crosswalk), throw angle is 30-45° from vertical — naturally produces vertical illuminance on the pedestrian's front. For directly-overhead mounts, 5-10° tilt toward approaching traffic required. Exact aim per photometric modeling at actual pole geometry.
+- **Listings**: Luminaire assembly: UL 1598 + UL 8750 (wet location). Solar mounting: UL 2703. ESS (battery + charge controller): UL 9540. All electronic components: FCC Part 15 certified.
 
 ### CCT Justification: Why 4000K for Pedestrian Safety
 
@@ -73,13 +74,13 @@ A single 25° fixture at 25ft covers ~11ft — roughly one travel lane. A standa
 |------------|-------|-------------------|---------------|
 | 24-30 ft | 2 | 1-2 | Single fixture on approach side, or one per direction |
 | 36-48 ft | 3-4 | 2 | One fixture each side, aimed at near half of crossing |
-| 48-64 ft | 4-5 + median | 2-3 | One each side + optional median-mounted fixture |
+| 48-64 ft | 4-5 + median | 2-3 | One each side + optional median-mounted fixture (note: TDOT Utility Accommodation Policy restricts median installations — requires hardship finding; verify with TDOT before specifying) |
 | 64+ ft | 5+ | 3+ | Median fixture mandatory; consider staged crossing |
 
 **For Nashville's target corridors** (Nolensville, Murfreesboro, Gallatin Pikes — typically 4-5 lanes with center turn lane):
 - Minimum 2 fixtures: one approach-side per direction of travel
 - Each fixture covers its near 2 lanes
-- Median-mounted third fixture recommended where median refuge island exists (common on these corridors)
+- Median-mounted third fixture where median refuge island exists (common on these corridors) — note: requires TDOT hardship finding per Utility Accommodation Policy Tenn. Comp. R. & Regs. 1680-06-01; verify before specifying
 - Each fixture aimed at crossing centerline within its coverage zone
 
 **BOM impact**: Multi-fixture configurations multiply the fixture cost but share solar/battery/controller infrastructure. A 2-fixture 4-lane crossing adds ~$300-600 for the second fixture and arm, not a full system duplication. Controller drives both fixtures from one activation signal.
@@ -179,6 +180,13 @@ This offset geometry actually benefits the design:
 - **Timer**: 15-20 second hold, software-configurable
 - **Clearing detection**: Radar or IR confirms crossing is clear before ramp-down
 - **Failsafe**: If comms/controller fail, reverts to basic push-button + fixed timer relay
+
+### NEC Compliance Notes
+
+- **48V DC bus classification**: 48V DC exceeds NEC Art. 411 low-voltage threshold (25V for listed low-voltage lighting) and Art. 725 Class 2 limit (30V / 100VA). Standard wiring methods per NEC Art. 300 are required — conductors in conduit or listed cable assemblies rated for wet locations, not low-voltage cable.
+- **NEC Art. 690.12 rapid shutdown**: A single 48V-nominal solar panel has open-circuit voltage (Voc) of approximately 55-60V, which is below the 80V threshold that triggers rapid shutdown within the 1-foot array boundary. **Do not string panels in series** — a 2-panel series string would produce Voc of 110-120V, triggering rapid shutdown requirements. The spec assumes a single panel per installation; the charge controller serves as the disconnect for the PV source circuit per Art. 690.13.
+- **NEC Art. 706 ESS**: The LiFePO4 battery bank requires a disconnecting means (690.13/706.7), overcurrent protection (706.30), and capacity labeling (706.31). These are addressed at the component level in the PE review checklist (audit/electrical-pe-review.md).
+- **NFPA 855 / IFC 2021 ESS threshold**: The system's ESS capacity is 2.4 kWh (48V, 50Ah). NFPA 855 (2026) Section 1.1.1 exempts ESS installations of 20 kWh or less in non-residential outdoor installations from most provisions. This system falls well below the 20 kWh threshold. LiFePO4 chemistry has no documented thermal runaway propagation, further reducing fire code concerns. UL 9540A testing is not required at this capacity/chemistry.
 
 ### Grid Readiness
 - Bidirectional inverter-ready for future grid tie
@@ -332,6 +340,7 @@ This concern is real but well-addressed in traffic engineering case law:
 | Microcontroller + enclosure | $100-200 |
 | Timer relay (failsafe backup) | $30-50 |
 | Mounting hardware + shield | $100-200 |
+| MASH-compliant breakaway base (if new pole in clear zone) | $200-400 |
 | Wiring, connectors, conduit stub | $50-100 |
 | **Hardware subtotal** | **$1,230-2,450** |
 | Installation labor (1-2 electricians, 1 day) | $800-1,500 |

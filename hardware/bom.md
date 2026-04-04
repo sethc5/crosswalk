@@ -2,6 +2,8 @@
 
 Extracted from system design spec. Costs are 2026 estimates for single-unit procurement; volume pricing would reduce.
 
+**Note**: Brand names below are reference examples for comparison. All publicly bid procurement must use performance-based specifications with "or approved equal" language per TCA 12-4-903.
+
 ## LED Fixture
 
 | Option | Beam | Lumens | Wattage | Est. Cost | Notes |
@@ -11,7 +13,7 @@ Extracted from system design spec. Costs are 2026 estimates for single-unit proc
 | RAB Lighting ALED (narrow flood) | 20° | 4,500 | 50W | $250-400 | Compact, tool-free access, house-side shield option |
 | Framing projector (theatrical) | Custom rectangle | Variable | 50-100W | $800-1,500 | Projects exact crosswalk rectangle; highest precision, highest cost |
 
-**Selection criteria**: Cutoff rating, narrow beam (15-25°), house-side shield available, roadway/wet-rated (IP65+), tool-free fixture access, slotted arm compatible.
+**Selection criteria**: Cutoff rating, narrow beam (15-25°), house-side shield available, roadway/wet-rated (IP65+), tool-free fixture access, slotted arm compatible. **Required listings**: UL 1598 + UL 8750 (wet location). BUG rating per IES TM-15-20: max B2-U0-G1.
 
 ## Solar + Storage
 
@@ -21,7 +23,7 @@ Extracted from system design spec. Costs are 2026 estimates for single-unit proc
 | LiFePO4 battery bank | 48V, 50Ah (2.4 kWh), BMS integrated | $400-800 |
 | MPPT charge controller | 48V compatible, 10-20A | $100-200 |
 
-**Sizing note**: Panel and battery sized for Nashville worst-case winter (December ~3.5 peak sun hours). 50Ah at 48V provides ~3 days autonomy at 50W draw with 15-20 second activation cycles.
+**Sizing note**: Panel and battery sized for Nashville worst-case winter (December ~3.5 peak sun hours). 50Ah at 48V provides ~3 days autonomy at 50W draw with 15-20 second activation cycles. Single panel only — do not string in series (Voc must stay below 80V to avoid NEC 690.12 rapid shutdown). **Required listings**: Solar mounting system: UL 2703. Battery + charge controller as ESS: UL 9540 (system at 2.4 kWh falls below NFPA 855 20 kWh threshold for outdoor non-residential installations).
 
 ## Controls + Detection
 
