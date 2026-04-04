@@ -92,7 +92,7 @@ Based on FHWA-HRT-08-053 findings, real-world RRFB pole geometry, and the covera
 
 | Parameter | Requirement |
 |-----------|------------|
-| **Mounting height** | 25-30 ft (7.6-9.1m). Below 25ft reduces coverage area; above 30ft reduces illuminance below 20 lux at practical lumen outputs. |
+| **Mounting height** | 25-30 ft (7.6-9.1m). Below 25ft reduces coverage area; above 30ft reduces illuminance below 20 lux at practical lumen outputs. Note: this falls between FHWA's pedestrian-area range (10-25ft) and standard roadway range (30-50ft). FHWA-HRT-08-053 tested crosswalk illumination at 28ft and found it optimal. TDOT's pedestrian-area spec (10-15ft) targets decorative/walkway luminaires, not crosswalk activation luminaires on RRFB poles. |
 | **Pole offset from crosswalk** | 10-20 ft (3-6m) preferred per FHWA. If using existing RRFB pole at 20-30 ft offset, array configuration with split-aim emitters is required to compensate. |
 | **Luminaire count per approach** | Minimum 1 per approach direction. |
 | **Coverage width per luminaire/array** | 19-25 ft (6-7.6m) at 20 lux vertical. |

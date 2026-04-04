@@ -241,9 +241,9 @@ Everything in this section applies to installations within Nashville / Davidson 
 - Governs: Technical requirements for RRFB installation. Now superseded by MUTCD 11th Ed. codification, but conditions remain reference standard. The illumination system must not modify or interfere with RRFB operation.
 - Status: **HARD**
 
-**FHWA Informational Report on Lighting Design for Midblock Crosswalks**
+**FHWA Informational Report on Lighting Design for Midblock Crosswalks (FHWA-HRT-08-053)**
 - Authority: FHWA
-- Governs: Design guidance for crosswalk illumination.
+- Governs: Design guidance for crosswalk illumination. Establishes 28ft (8.5m) as optimal mounting height for crosswalk luminaires, 10-20ft offset from crosswalk, and 20 lux vertical at 1.5m as the illuminance target. Also establishes that pedestrian-area luminaire heights (10-25ft per FHWA general guidance, 10-15ft per TDOT) apply to walkway/decorative fixtures, not crosswalk activation luminaires.
 - Status: **ADVISORY**
 
 ### AASHTO Standards
