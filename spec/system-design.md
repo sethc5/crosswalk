@@ -2,18 +2,18 @@
 
 ## Overview
 
-Activated narrow-beam overhead LED coordinated with existing RRFB installation. Solar-powered, push-button or passive detection triggered, 15-20 second hold with pedestrian clearing detection.
+Activated overhead LED illumination coordinated with existing RRFB installation. Solar-powered, push-button or passive detection triggered, 15-20 second hold with pedestrian clearing detection. Single-fixture or multi-emitter array configuration depending on pole geometry and crossing width.
 
 ## Optical Design
 
-### Primary Fixture
-- **Type**: Narrow-beam LED spot, 15-25° beam spread
+### Luminaire Requirements
+- **Type**: Narrow-beam LED — single fixture or multi-emitter linear array (see Array Configuration below)
 - **Color temp**: 4000K recommended (see CCT justification below); 3000K fallback if variance not granted
-- **Output**: 4,000-5,000 lumens (~50W LED equivalent)
-- **Target**: 20 lux vertical at 1.5m above crossing surface (per IES RP-8-22; verify target unchanged in RP-8-25)
-- **Mounting**: Pole-mounted at 20-25ft, approach side of crossing
-- **Optics**: House-side shield, cutoff fixture to prevent driver glare
-- **Aim**: 5-10° tilt from vertical toward approaching traffic. Pure straight-down aim maximizes horizontal illuminance but produces poor vertical illuminance at 1.5m (the IES RP-8-25 measurement height). Slight tilt directs beam center toward the pedestrian's vertical plane while keeping the fixture well below the driver's sight line. Exact tilt angle to be determined by photometric modeling with selected fixture's .ies file.
+- **Output**: 4,000-5,000 lumens total (~50W equivalent), whether from single fixture or distributed across array
+- **Target**: 20 lux vertical at 1.5m across 100% of marked crosswalk width (per IES RP-8-22; verify unchanged in RP-8-25). 14 lux horizontal average maintained on crossing surface.
+- **Mounting**: Pole-mounted at 25-30ft, approach side of crossing (see Recommended Placement Specification)
+- **Optics**: Cutoff-rated. Single fixture: house-side shield, max 25° beam. Array: individual emitters 15-25° each, aimed per dual-zone targeting.
+- **Aim**: Determined by pole offset geometry. On existing RRFB poles (typically 20-30ft ahead of crosswalk), throw angle is 30-45° from vertical — naturally produces vertical illuminance on the pedestrian's front. For directly-overhead mounts, 5-10° tilt toward approaching traffic required. Exact aim per photometric modeling at actual pole geometry.
 
 ### CCT Justification: Why 4000K for Pedestrian Safety
 
@@ -221,7 +221,7 @@ Nashville averages 50-60 thunderstorm days per year. Solar systems on poles are 
 
 The time-of-night intelligence requires controllable LED output:
 
-- **Protocol**: 0-10V dimming (simplest, most robust for outdoor single-fixture control) or PWM via microcontroller GPIO
+- **Protocol**: 0-10V dimming or PWM via microcontroller GPIO. Single fixture: one dimming channel. Array: single driver per array (all emitters dim together) or grouped drivers for independent Zone A/Zone B dimming.
 - **Levels**: Full (100%), reduced (40-60% for dusk/dawn), standby (0% — off between activations)
 - **Ramp**: 0.5 second ramp-up to full output on activation (instant-on is disorienting to drivers; half-second ramp approximates theatrical "bump" — fast enough to be immediate, slow enough to not startle)
 - **LED driver**: Constant-current driver with dimming input, 48V DC compatible, rated for outdoor temperature range
@@ -239,9 +239,9 @@ Recommendation: Radar primary (also captures vehicle speed data for near-miss de
 
 ## Mounting
 
-- Slotted arm mount (swap fixture without replacing arm)
-- Tool-free fixture access for maintenance
-- Conduit capacity for future additions
+- **Single fixture**: Slotted arm mount (swap fixture without replacing arm). Tool-free fixture access for maintenance.
+- **Array**: Linear bracket on arm with individual emitter aim adjustment. Field-replaceable emitter modules without removing bracket.
+- Conduit capacity for future additions on both configurations
 
 ## Time-of-Night Intelligence
 
@@ -340,7 +340,7 @@ This concern is real but well-addressed in traffic engineering case law:
 
 ## Compliance Checklist
 
-- [x] ANSI/IES RP-8-25 — 20 lux vertical at 1.5m, 14 lux horizontal *(met by optical design: 4-5K lumen narrow beam at 20-25ft mounting height)*
+- [x] ANSI/IES RP-8-25 — 20 lux vertical at 1.5m, 14 lux horizontal *(met by optical design: 4-5K lumen output at 25-30ft mounting height; verify targets unchanged in RP-8-25)*
 - [x] MUTCD 11th Edition Chapter 4L — RRFB device standards *(system augments, does not modify RRFB operation)*
 - [ ] TDOT Lighting Design Manual — mandatory lighting on mid-block crossings *(requires TDOT review of fixture and placement)*
 - [ ] Nashville Streets and Pathways Lighting Manual *(requires NDOT review for local installations)*
@@ -364,21 +364,23 @@ The following is proposed as supplemental specification to the existing TDOT lig
 
 > **Coordinated Illumination at RRFB-Equipped Crosswalks — Supplemental Specification**
 >
-> Where a Rectangular Rapid Flash Beacon (RRFB) is installed at a midblock or uncontrolled crosswalk, the lighting design required by [Traffic Operations Memo 2022 / TDOT Lighting Design Manual] **shall** include a dedicated crosswalk luminaire meeting the following:
+> Where a Rectangular Rapid Flash Beacon (RRFB) is installed at a midblock or uncontrolled crosswalk, the lighting design required by [Traffic Operations Memo 2022 / TDOT Lighting Design Manual] **shall** include a dedicated crosswalk luminaire or luminaire array meeting the following:
 >
-> 1. **Illuminance**: Minimum 20 lux vertical at 1.5 meters above the crossing surface and 14 lux average maintained horizontal illuminance across the marked crosswalk, per ANSI/IES RP-8-25 and consistent with AASHTO Roadway Lighting Design Guide recommendations.
+> 1. **Illuminance**: Minimum 20 lux vertical at 1.5 meters above the crossing surface and 14 lux average maintained horizontal illuminance across 100% of the marked crosswalk width, per ANSI/IES RP-8-25 and consistent with AASHTO Roadway Lighting Design Guide recommendations. Vertical illuminance **shall** be achieved at the pedestrian's torso and face (1.0-1.8m above surface), not solely at the crossing pavement.
 >
-> 2. **Coordinated activation**: The crosswalk luminaire **shall** activate simultaneously with the RRFB upon any triggering event (push-button, passive detection, or both) and **shall** remain at full output for the duration of the pedestrian crossing interval.
+> 2. **Coordinated activation**: The crosswalk luminaire or luminaire array **shall** activate simultaneously with the RRFB upon any triggering event (push-button, passive detection, or both) and **shall** remain at full output for the duration of the pedestrian crossing interval.
 >
-> 3. **Clearing hold**: Following the crossing interval, the luminaire **shall** maintain illumination for a clearing buffer of no less than 5 seconds, or until passive detection confirms the crossing is clear, whichever is longer.
+> 3. **Clearing hold**: Following the crossing interval, the luminaire or luminaire array **shall** maintain illumination for a clearing buffer of no less than 5 seconds, or until passive detection confirms the crossing is clear, whichever is longer.
 >
-> 4. **Optical control**: The luminaire **shall** be a cutoff-rated fixture with a maximum beam spread of 25°. A house-side shield or equivalent optical control **shall** prevent direct light above 80° from nadir toward approaching traffic. Light distribution **shall** be substantially confined to the crosswalk surface.
+> 4. **Optical control**: Each luminaire or emitter within an array **shall** be cutoff-rated with a maximum individual beam spread of 25°. Optical control **shall** prevent direct light above 80° from nadir toward approaching traffic. Light distribution **shall** be substantially confined to the crosswalk surface and the pedestrian occupancy zone (0-1.8m above surface).
 >
-> 5. **Power and resilience**: Solar-powered systems **shall** be acceptable. Where solar is used, battery storage **shall** be sized to maintain full operation through a minimum of 72 hours without solar charge at December insolation levels for the installation latitude. Conduit **shall** be stubbed for future hardwire connection regardless of initial power source.
+> 5. **Mounting and placement**: Luminaires **shall** be mounted at 25-30 ft (7.6-9.1m) on the approach side of the crossing. For crossings wider than 25 ft, luminaires or arrays **shall** be installed on both approach sides to ensure full-width coverage. Photometric modeling with the selected luminaire's IES file at the actual pole-to-crosswalk geometry **shall** verify illuminance targets are met across the full crossing width.
 >
-> 6. **Failsafe**: If the primary controller fails, the system **shall** revert to a fixed-timer relay mode providing illumination for a minimum of 20 seconds upon push-button activation.
+> 6. **Power and resilience**: Solar-powered systems **shall** be acceptable. Where solar is used, battery storage **shall** be sized to maintain full operation through a minimum of 72 hours without solar charge at December insolation levels for the installation latitude. Conduit **shall** be stubbed for future hardwire connection regardless of initial power source.
 >
-> 7. **Data capture**: Systems **shall** log all activation events with timestamps. Where radar or equivalent detection is installed, systems **should** log pedestrian demand volume and vehicle approach speed for yielding compliance analysis.
+> 7. **Failsafe**: If the primary controller fails, the system **shall** revert to a fixed-timer relay mode providing illumination for a minimum of 20 seconds upon push-button activation.
+>
+> 8. **Data capture**: Systems **shall** log all activation events with timestamps. Where radar or equivalent detection is installed, systems **should** log pedestrian demand volume and vehicle approach speed for yielding compliance analysis.
 >
 > **Applicability**: This specification applies to all new RRFB installations and **should** be applied to existing RRFB locations as part of scheduled maintenance or retrofit programs. Existing continuous roadway lighting at or near the crossing does not satisfy this coordinated illumination requirement.
 

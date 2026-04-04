@@ -123,7 +123,7 @@ A Tennessee-originated specification with field evaluation data has a clear path
 
 Everything needed to move this forward without additional research or development:
 
-1. **Draft supplemental specification** — 7 requirements for TDOT Traffic Operations Memo addendum, covering illuminance, coordinated activation, optical control, clearing hold, power resilience, failsafe, and data capture. Written to be adoptable by TDOT and portable to ITE nationally.
+1. **Draft supplemental specification** — 8 requirements for TDOT Traffic Operations Memo addendum, covering illuminance, coordinated activation, optical control, clearing hold, power resilience, failsafe, and data capture. Written to be adoptable by TDOT and portable to ITE nationally.
 
 2. **Full technical spec** — Optical design with multi-lane coverage geometry, 48V DC electrical architecture, detection options, communications, environmental durability for Nashville climate, surge protection, dimming protocol, time-of-night intelligence.
 

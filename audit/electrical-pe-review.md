@@ -43,7 +43,7 @@ Items requiring review by a licensed Professional Engineer (Electrical) before p
 
 ## LED Driver
 
-- [ ] Constant-current driver rated for outdoor temperature range (-10°F to 105°F / -23°C to 41°C)
+- [ ] Constant-current driver rated for outdoor temperature range (-20°F to 110°F / -29°C to 43°C per system design spec)
 - [ ] 48V DC input compatible
 - [ ] 0-10V or PWM dimming input for time-of-night and ramp-up control
 - [ ] UL 8750 listed as component of luminaire assembly

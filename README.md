@@ -34,7 +34,7 @@ Start with **[academic-summary.md](docs/academic-summary.md)** — overview, rea
 
 Start with **[executive-summary.md](docs/executive-summary.md)** — problem, gap, fix, cost, political framing.
 
-- [system-design.md](spec/system-design.md) — Complete technical spec with draft supplemental specification language (7 requirements, written for state DOT Traffic Operations Memo adoption)
+- [system-design.md](spec/system-design.md) — Complete technical spec with draft supplemental specification language (8 requirements, written for state DOT Traffic Operations Memo adoption)
 - [tsite-abstract-draft.md](docs/tsite-abstract-draft.md) — 250-word abstract adaptable for any ITE section meeting
 
 ### For Anyone
