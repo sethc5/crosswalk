@@ -85,9 +85,42 @@ A single 25° fixture at 25ft covers ~11ft — roughly one travel lane. A standa
 
 **Uniformity**: Multiple overlapping fixtures actually improve uniformity ratio across the crossing width — easier to meet the IES RP-8-25 max 4:1 uniformity requirement than with a single wide-beam fixture.
 
+### Pole Offset Reality — Angled Array Configuration
+
+In most real-world RRFB installations, the sign/beacon pole is mounted 20-30 feet ahead of the crosswalk on the approach side — not directly above it. This means any fixture mounted on the existing pole must aim backward and downward toward the crossing at a significant angle (30-45° from vertical, depending on setback and mounting height).
+
+This offset geometry actually benefits the design:
+
+1. **Vertical illuminance is inherent**: Light arriving at 30-45° from vertical illuminates the pedestrian's front — the face the approaching driver sees. This naturally produces the vertical illuminance that IES RP-8-25 measures at 1.5m, without the fixture tilt workaround needed for a directly-overhead mount.
+
+2. **Linear LED array configuration**: Rather than a single large fixture, mount a bank of 15-30 small, tightly focused LED emitters in a linear array on the pole arm. Each emitter covers a slice of the crosswalk. The array shapes the illuminated area to match the crosswalk rectangle — not a circular pool. This is analogous to front-of-house PAR arrays in stage lighting, aimed from a distance to precisely illuminate a performance area.
+
+**Array advantages over single fixture:**
+
+| | Single Fixture | LED Array (15-30 emitters) |
+|---|---|---|
+| Light shape | Circular pool | Rectangular, matching crosswalk striping |
+| Failure mode | Total loss on fixture failure | Graceful degradation — lose 2 of 20, still 90% coverage |
+| Glare | One bright source requires cutoff shield | Many low-output sources, no single bright point |
+| Wind load | One large housing | Distributed small emitters, lower total sail area |
+| Vertical illuminance | Poor if straight-down; requires tilt | Inherent from angled throw |
+| Replacement | Swap entire fixture | Swap individual emitter modules |
+| Cost | $300-600 for roadway-rated fixture | TBD — commodity LED emitters are cheap, custom array housing adds cost |
+| Precision | Limited by single beam pattern | Each emitter independently aimable |
+
+**Design considerations for array configuration:**
+
+- Individual emitters: 3-5W each, 15-25° beam, 3000K or 4000K, IP65+ rated
+- Total array output equivalent to single-fixture spec (4,000-5,000 lumens total)
+- Array mounted on a single arm bracket with individual emitter aim adjustment
+- Controller drives entire array from single activation signal
+- Each emitter module field-replaceable without tools or replacing the array housing
+
+**Photometric modeling note**: The angled throw from 20-30ft offset changes the illuminance calculation significantly from the straight-down model in the photometric verification (audit/photometric-verification.md). The inverse-square-law distance is longer (hypotenuse, not just height), but the angle of incidence creates far better vertical illuminance. Modeling with actual emitter IES files at the specific pole-to-crosswalk geometry is critical before array design is finalized.
+
 ### Enhanced Options
-- **Retroreflective crosswalk markings**: Cheap force multiplier — pop hard under the narrow beam
-- **Framing projector**: Theatrical-grade, projects exact rectangle matching crosswalk striping. Higher cost but precision is unmatched.
+- **Retroreflective crosswalk markings**: Cheap force multiplier — pop hard under the directed beam array
+- **Framing projector**: Theatrical-grade, projects exact rectangle matching crosswalk striping. Higher cost but precision is unmatched. The LED array approach achieves a similar result with commodity hardware.
 - **Ground-projected warning**: "STOP" or warning symbol on approach lane surface
 
 ## Electrical Design
