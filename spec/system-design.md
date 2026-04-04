@@ -10,7 +10,7 @@ Activated overhead LED illumination coordinated with existing RRFB installation.
 - **Type**: Narrow-beam LED — single fixture or multi-emitter linear array (see Array Configuration below)
 - **Color temp**: 4000K recommended (see CCT justification below); 3000K fallback if variance not granted
 - **Output**: 4,000-5,000 lumens total (~50W equivalent), whether from single fixture or distributed across array
-- **Target**: 20 lux vertical at 1.5m across 100% of marked crosswalk width (per IES RP-8-22; verify unchanged in RP-8-25). 14 lux horizontal average maintained on crossing surface.
+- **Target**: 20 lux vertical at 1.5m across 100% of marked crosswalk width (per IES RP-8-25; verify illuminance targets unchanged from RP-8-22). 14 lux horizontal average maintained on crossing surface.
 - **Mounting**: Pole-mounted at 25-30ft, approach side of crossing (see Recommended Placement Specification)
 - **Optics**: Cutoff-rated. Single fixture: house-side shield, max 25° beam. Array: individual emitters 15-25° each, aimed per dual-zone targeting.
 - **Aim**: Determined by pole offset geometry. On existing RRFB poles (typically 20-30ft ahead of crosswalk), throw angle is 30-45° from vertical — naturally produces vertical illuminance on the pedestrian's front. For directly-overhead mounts, 5-10° tilt toward approaching traffic required. Exact aim per photometric modeling at actual pole geometry.
@@ -57,12 +57,13 @@ The beam math matters — Nashville's fatal corridors are 4+ lane roads (48-64ft
 
 | Mounting Height | 15° Beam Diameter | 25° Beam Diameter |
 |-----------------|-------------------|-------------------|
-| 20 ft | 5.3 ft | 8.9 ft |
+| 20 ft * | 5.3 ft | 8.9 ft |
 | 25 ft | 6.6 ft | 11.1 ft |
 | 30 ft | 7.9 ft | 13.3 ft |
 | 35 ft | 9.3 ft | 15.5 ft |
 
 *(Beam diameter = 2 × height × tan(beam angle / 2))*
+*\* 20ft is below the specified minimum of 25ft; shown for reference only.*
 
 A single 25° fixture at 25ft covers ~11ft — roughly one travel lane. A standard 4-lane crossing is 48ft minimum. **One fixture does not cover a wide road.**
 
@@ -145,7 +146,7 @@ This offset geometry actually benefits the design:
 - Controller drives entire array from single activation signal
 - Each emitter module field-replaceable without tools or replacing the array housing
 
-**Vertical coverage on wide roads**: A single array on a pole 25ft ahead and 20ft high lights a pedestrian's full body at the near edge of the crosswalk (39° angle) but only legs-to-waist at 50ft (22°) and knees at 70ft (16°). On a 4-5 lane road, a single-side array cannot illuminate a pedestrian's upper body at the far edge. Solutions:
+**Vertical coverage on wide roads**: A single array on a pole 25ft ahead and 25ft high lights a pedestrian's full body at the near edge of the crosswalk (45° angle) but only waist-to-chest at 50ft (27°) and below-waist at 70ft (20°). On a 4-5 lane road, a single-side array cannot illuminate a pedestrian's upper body at the far edge. Solutions:
 
 1. **Two-sided installation** (already specified for 4+ lane roads): Each side's array covers its near half. The pedestrian is always within ~30ft of at least one array regardless of position in the crosswalk.
 2. **Split aim within the array — dual-zone targeting**: Divide the array into two aim zones with distinct purposes:
@@ -341,7 +342,7 @@ This concern is real but well-addressed in traffic engineering case law:
 ## Compliance Checklist
 
 - [x] ANSI/IES RP-8-25 — 20 lux vertical at 1.5m, 14 lux horizontal *(met by optical design: 4-5K lumen output at 25-30ft mounting height; verify targets unchanged in RP-8-25)*
-- [x] MUTCD 11th Edition Chapter 4L — RRFB device standards *(system augments, does not modify RRFB operation)*
+- [x] MUTCD 11th Edition with Revision 1 (2025) Chapter 4L — RRFB device standards *(system augments, does not modify RRFB operation)*
 - [ ] TDOT Lighting Design Manual — mandatory lighting on mid-block crossings *(requires TDOT review of fixture and placement)*
 - [ ] Nashville Streets and Pathways Lighting Manual *(requires NDOT review for local installations)*
 - [ ] TDOT/NDOT approval for state route installations *(field verification required per corridor)*

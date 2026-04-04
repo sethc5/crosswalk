@@ -4,7 +4,9 @@ Hand calculations to verify the spec's illuminance claims. These do NOT replace 
 
 ## Claim to Verify
 
-20 lux vertical illuminance at 1.5m above crossing surface, from a 4,000-5,000 lumen fixture at 20-25ft mounting height with 15-25° beam spread.
+20 lux vertical illuminance at 1.5m above crossing surface, from a 4,000-5,000 lumen luminaire or array at 25-30ft mounting height with 15-25° beam spread.
+
+**Note**: The hand calculations below use a simplified straight-down geometry for conservative baseline analysis. The spec's actual design geometry is 30-45° from vertical (fixture on offset pole 20-30ft ahead of crossing, aimed back). The straight-down model overestimates horizontal illuminance and underestimates vertical illuminance compared to the real offset geometry. AGi32 modeling with actual .ies files at site-specific geometry is required for design verification.
 
 ## Method: Inverse Square Law with Beam Factor
 
