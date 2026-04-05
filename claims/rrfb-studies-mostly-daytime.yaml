@@ -1,0 +1,24 @@
+claim: "Published RRFB yielding studies are primarily conducted during daylight hours"
+domain: traffic-safety
+confidence: moderate
+status: current
+source:
+  title: "FHWA RRFB Informational Report"
+  author: "FHWA"
+  year: 2018
+  url: "https://safety.fhwa.dot.gov/ped_bike/step/resources/docs/fhwasa18064.pdf"
+  retrieved: "2026-04-04"
+sources:
+  - title: "NCHRP Report 841: Development of Crash Modification Factors for Uncontrolled Pedestrian Crossing Treatments"
+    author: "NCHRP"
+    year: 2017
+context: >
+  Most RRFB studies aggregate day and night results or were conducted during
+  daytime only. Nighttime-specific yielding improvement is not established.
+scope:
+  conditions: ["published RRFB literature"]
+tags: [rrfb, research-gap, methodology]
+relationships:
+  - target: rrfb-crash-reduction
+    type: contradicts
+    note: "47% figure aggregates day+night but most evidence is daytime"

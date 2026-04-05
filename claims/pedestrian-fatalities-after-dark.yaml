@@ -1,0 +1,16 @@
+claim: "More than 76% of pedestrian fatalities in the US occur after dark"
+domain: traffic-safety
+confidence: high
+status: current
+source:
+  title: "Pedestrian Traffic Fatalities by State: 2023 Preliminary Data"
+  author: "Governors Highway Safety Association"
+  year: 2024
+  url: "https://www.ghsa.org/resources/Pedestrians24"
+  retrieved: "2026-04-04"
+context: >
+  Consistent finding across multiple GHSA annual reports. Underscores the
+  disproportionate risk pedestrians face in low-light conditions.
+scope:
+  geography: "US"
+tags: [pedestrian, nighttime, fatality, ghsa]

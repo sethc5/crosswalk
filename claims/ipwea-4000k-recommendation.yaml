@@ -1,0 +1,20 @@
+claim: "IPWEA formally recommends 4000K for main roads and pedestrian crossings, citing approximately 20% safety improvement"
+domain: traffic-safety
+confidence: high
+status: current
+source:
+  title: "LED Street Lighting: 3000K vs 4000K"
+  author: "Institute of Public Works Engineering Australasia"
+  year: 2024
+  url: "https://insite.ipwea.org"
+  retrieved: "2026-04-04"
+context: >
+  International engineering body recommendation based on mesopic visibility
+  research. Applies specifically to main roads and pedestrian crossings
+  where detection distance is safety-critical.
+scope:
+  geography: "Australia (internationally referenced)"
+tags: [cct, ipwea, 4000k, recommendation]
+relationships:
+  - target: higher-cct-detection-improvement
+    type: supports

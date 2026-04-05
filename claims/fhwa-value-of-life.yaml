@@ -1,0 +1,17 @@
+claim: "FHWA statistical value of a statistical life is approximately $13.7 million"
+domain: traffic-safety
+confidence: high
+status: current
+source:
+  title: "Departmental Guidance on Valuation of a Statistical Life in Economic Analysis"
+  author: "USDOT/FHWA"
+  year: 2024
+  url: "https://www.transportation.gov/office-policy/transportation-policy/revised-departmental-guidance-on-valuation-of-a-statistical-life-in-economic-analysis"
+  retrieved: "2026-04-04"
+context: >
+  Used in benefit-cost analyses for transportation safety projects.
+  Updated periodically to reflect current economic conditions.
+scope:
+  geography: "US"
+  time_period: "as of 2024"
+tags: [economics, value-of-life, fhwa]

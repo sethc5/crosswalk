@@ -1,0 +1,24 @@
+claim: "With RRFB installed, driver yielding rates increase to 70-90% or higher"
+domain: traffic-safety
+confidence: high
+status: current
+source:
+  title: "FHWA RRFB Informational Report"
+  author: "FHWA"
+  year: 2018
+  url: "https://safety.fhwa.dot.gov/ped_bike/step/resources/docs/fhwasa18064.pdf"
+  retrieved: "2026-04-04"
+sources:
+  - title: "NCHRP Report 841: Development of Crash Modification Factors for Uncontrolled Pedestrian Crossing Treatments"
+    author: "NCHRP"
+    year: 2017
+context: >
+  Substantial yielding improvement documented across multiple study sites.
+  RRFBs are among the most cost-effective pedestrian safety countermeasures.
+scope:
+  geography: "US"
+  conditions: ["uncontrolled crosswalks", "primarily daytime studies"]
+tags: [rrfb, yielding, effectiveness, fhwa]
+relationships:
+  - target: rrfb-baseline-yielding
+    type: supports

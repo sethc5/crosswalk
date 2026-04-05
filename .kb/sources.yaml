@@ -1,0 +1,127 @@
+sources:
+  ama-policy-statement-led-streetlighting-2016:
+    title: AMA Policy Statement on LED Streetlighting
+    year: 2016
+    author: American Medical Association
+    url: https://www.ama-assn.org/press-center/press-releases/ama-adopts-guidance-reduce-harm-high-intensity-street-lights
+    claim_refs:
+    - ama-3000k-recommendation
+  ansiies-rp822-roadway-lighting-2022:
+    title: ANSI/IES RP-8-22 Roadway Lighting
+    year: 2022
+    author: Illuminating Engineering Society
+    url: https://www.ies.org/standards/
+    claim_refs:
+    - crosswalk-illuminance-standard
+  cie-1912010-recommended-system-mesopic-2010:
+    title: CIE 191:2010 Recommended System for Mesopic Photometry
+    year: 2010
+    author: Commission Internationale de l'Eclairage
+    doi: 10.25039/tr.191.2010
+    url: https://cie.co.at/publications/recommended-system-mesopic-photometry-based-visual-performance
+    openalex_id: https://openalex.org/W4304143660
+    cited_by_count: 16
+    claim_refs:
+    - mesopic-vision-purkinje-shift
+  departmental-guidance-valuation-statistical-life-2024:
+    title: Departmental Guidance on Valuation of a Statistical Life in Economic Analysis
+    year: 2024
+    author: USDOT/FHWA
+    url: https://www.transportation.gov/office-policy/transportation-policy/revised-departmental-guidance-on-valuation-of-a-statistical-life-in-economic-analysis
+    retrieved: '2026-04-04'
+    claim_refs:
+    - fhwa-value-of-life
+  effects-light-source-spectrum-visibility-2015:
+    title: Effects of Light Source Spectrum on Visibility
+    year: 2015
+    author: FHWA
+    url: FHWA-HRT-15-047
+    retrieved: '2026-04-04'
+    claim_refs:
+    - higher-cct-detection-improvement
+  fhwa-crash-modification-factors-clearinghouse-2024:
+    title: FHWA Crash Modification Factors Clearinghouse
+    year: 2024
+    author: FHWA
+    url: https://www.cmfclearinghouse.org/
+    retrieved: '2026-04-04'
+    claim_refs:
+    - no-cmf-coordinated-illumination
+  fhwa-proven-safety-countermeasures-2024:
+    title: FHWA Proven Safety Countermeasures
+    year: 2024
+    author: FHWA
+    doi: 10.17226/356002
+    url: https://safety.fhwa.dot.gov/provencountermeasures/
+    openalex_id: https://openalex.org/W7118272792
+    retrieved: '2026-04-04'
+    claim_refs:
+    - rrfb-installation-cost
+  fhwa-rrfb-informational-report-2018:
+    title: FHWA RRFB Informational Report
+    year: 2018
+    author: FHWA
+    url: https://safety.fhwa.dot.gov/ped_bike/step/resources/docs/fhwasa18064.pdf
+    retrieved: '2026-04-04'
+    claim_refs:
+    - rrfb-baseline-yielding
+    - rrfb-studies-mostly-daytime
+    - rrfb-yielding-improvement
+  led-street-lighting-3000k-vs-2024:
+    title: 'LED Street Lighting: 3000K vs 4000K'
+    year: 2024
+    author: Institute of Public Works Engineering Australasia
+    url: https://insite.ipwea.org
+    retrieved: '2026-04-04'
+    claim_refs:
+    - ipwea-4000k-recommendation
+  maine-ld-1934-2024:
+    title: Maine LD 1934
+    year: 2024
+    author: Maine State Legislature
+    url: https://legislature.maine.gov/LawMakerWeb/summary.asp?ID=280090478
+    claim_refs:
+    - maine-dark-sky-safety-exemption
+  nashville-metropolitan-code-bl2020535-2021:
+    title: Nashville Metropolitan Code BL2020-535
+    year: 2021
+    author: Nashville Metro Council
+    url: https://www.nashville.gov/departments/codes/lighting-ordinance
+    claim_refs:
+    - nashville-dark-sky-3000k
+  nashville-pedestrian-safety-analysis-2020:
+    title: Nashville Pedestrian Safety Analysis
+    year: 2020
+    author: Walk Bike Nashville
+    url: https://www.walkbikenashville.org
+    retrieved: '2026-04-04'
+    claim_refs:
+    - nashville-4plus-lanes
+    - nashville-fatalities-arterials
+  nchrp-report-841-development-crash-2017:
+    title: 'NCHRP Report 841: Development of Crash Modification Factors for Uncontrolled
+      Pedestrian Crossing Treatments'
+    year: 2017
+    author: NCHRP
+    url: https://nap.nationalacademies.org/catalog/24627/development-of-crash-modification-factors-for-uncontrolled-pedestrian-crossing-treatments
+    claim_refs:
+    - rrfb-crash-reduction
+    - rrfb-studies-mostly-daytime
+    - rrfb-yielding-improvement
+  pedestrian-traffic-fatalities-state-2023-2024:
+    title: 'Pedestrian Traffic Fatalities by State: 2023 Preliminary Data'
+    year: 2024
+    author: Governors Highway Safety Association
+    url: https://www.ghsa.org/resources/Pedestrians24
+    retrieved: '2026-04-04'
+    claim_refs:
+    - nighttime-fatalities-trend
+    - pedestrian-deaths-overall-trend
+    - pedestrian-fatalities-after-dark
+  tdot-traffic-operations-memo-2022:
+    title: TDOT Traffic Operations Memo
+    year: 2022
+    author: TDOT
+    url: https://www.tn.gov/tdot/traffic-operations-division.html
+    claim_refs:
+    - tdot-lighting-mandate

@@ -1,0 +1,16 @@
+claim: "At nighttime ambient light levels, human vision shifts to mesopic mode and peak sensitivity shifts toward shorter wavelengths (Purkinje shift)"
+domain: traffic-safety
+confidence: certain
+status: current
+source:
+  title: "CIE 191:2010 Recommended System for Mesopic Photometry"
+  author: "Commission Internationale de l'Eclairage"
+  year: 2010
+  url: https://cie.co.at/publications/recommended-system-mesopic-photometry-based-visual-performance
+context: >
+  Well-established vision science. Under mesopic conditions (0.005 to 5 cd/m2),
+  rod photoreceptors contribute significantly, shifting peak sensitivity from
+  555nm toward approximately 507nm.
+scope:
+  conditions: ["0.005 to 5 cd/m² ambient luminance"]
+tags: [vision-science, mesopic, purkinje-shift]

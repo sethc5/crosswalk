@@ -1,0 +1,16 @@
+claim: "Nashville Dark Sky Ordinance BL2020-535 caps outdoor lighting CCT at 3000K for new construction"
+domain: traffic-safety
+confidence: high
+status: current
+source:
+  title: "Nashville Metropolitan Code BL2020-535"
+  author: "Nashville Metro Council"
+  year: 2021
+  url: https://www.nashville.gov/departments/codes/lighting-ordinance
+context: >
+  Local dark sky regulation that may constrain CCT selection for pedestrian
+  safety lighting. Includes exemptions for the downtown core.
+scope:
+  geography: "Nashville/Davidson County"
+  conditions: ["new construction only", "exemptions for downtown core"]
+tags: [nashville, dark-sky, cct, regulation]

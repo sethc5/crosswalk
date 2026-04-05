@@ -1,0 +1,19 @@
+requirement: "Lighting should accompany RRFB installations at crosswalks"
+domain: traffic-safety
+authority: FHWA
+status: active
+compliance: should
+source:
+  title: "Manual on Uniform Traffic Control Devices, 11th Edition with Revision 1"
+  author: FHWA
+  year: 2025
+  url: https://mutcd.fhwa.dot.gov/
+  retrieved: "2026-04-04"
+jurisdiction: federal
+basis:
+  - rrfb-crash-reduction
+  - pedestrian-fatalities-after-dark
+context: >
+  Advisory ('should'), not mandatory ('shall'). Creates a gap between
+  TDOT's mandatory lighting requirement and the federal advisory.
+tags: [mutcd, rrfb, lighting, advisory]

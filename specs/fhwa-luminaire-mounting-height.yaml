@@ -1,0 +1,16 @@
+requirement: "Crosswalk luminaires should be mounted at 25-30 feet height for optimal pedestrian detection"
+domain: traffic-safety
+authority: FHWA
+status: active
+compliance: should
+source:
+  title: "Informational Report on Lighting Design for Midblock Crosswalks"
+  author: FHWA
+  year: 2008
+  url: https://www.fhwa.dot.gov/publications/research/safety/08053/
+  retrieved: "2026-04-04"
+jurisdiction: federal
+basis:
+  - crosswalk-illuminance-standard
+  - higher-cct-detection-improvement
+tags: [fhwa, mounting-height, luminaire, crosswalk]

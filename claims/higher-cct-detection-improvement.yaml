@@ -1,0 +1,19 @@
+claim: "6000K LED outperformed 3500K LED in pedestrian clothing color recognition distance by approximately 30%"
+domain: traffic-safety
+confidence: high
+status: current
+source:
+  title: "Effects of Light Source Spectrum on Visibility"
+  author: "FHWA"
+  year: 2015
+  url: "FHWA-HRT-15-047"
+  retrieved: "2026-04-04"
+context: >
+  Higher CCT sources provide better color recognition at mesopic light levels
+  due to greater short-wavelength energy aligning with shifted rod sensitivity.
+scope:
+  conditions: ["low-speed pedestrian environments", "nighttime"]
+tags: [cct, led, pedestrian-detection, fhwa]
+relationships:
+  - target: mesopic-vision-purkinje-shift
+    type: depends_on

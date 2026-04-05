@@ -1,0 +1,17 @@
+claim: "Standard RRFB installation costs $10,000-15,000 per crossing"
+domain: traffic-safety
+confidence: high
+status: current
+source:
+  title: "FHWA Proven Safety Countermeasures"
+  author: "FHWA"
+  year: 2024
+  url: "https://safety.fhwa.dot.gov/provencountermeasures/"
+  retrieved: "2026-04-04"
+context: >
+  RRFBs are among the most cost-effective pedestrian safety devices.
+  Cost includes signs, beacons, solar panels, and installation labor.
+scope:
+  geography: "US"
+  time_period: "2024 pricing"
+tags: [rrfb, cost, installation]

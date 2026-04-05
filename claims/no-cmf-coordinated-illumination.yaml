@@ -1,0 +1,16 @@
+claim: "No Crash Modification Factor exists for coordinated crosswalk illumination in the FHWA CMF Clearinghouse"
+domain: traffic-safety
+confidence: high
+status: current
+source:
+  title: "FHWA Crash Modification Factors Clearinghouse"
+  author: "FHWA"
+  year: 2024
+  url: "https://www.cmfclearinghouse.org/"
+  retrieved: "2026-04-04"
+context: >
+  This is the primary research gap. The effect of adding illumination to an
+  existing RRFB has not been isolated in published crash studies.
+scope:
+  geography: "US"
+tags: [cmf, illumination, research-gap, fhwa]

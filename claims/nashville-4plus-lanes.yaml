@@ -1,0 +1,19 @@
+claim: "71% of Nashville pedestrian fatalities occur on roads with four or more lanes"
+domain: traffic-safety
+confidence: high
+status: current
+source:
+  title: "Nashville Pedestrian Safety Analysis"
+  author: "Walk Bike Nashville"
+  year: 2020
+  url: "https://www.walkbikenashville.org"
+  retrieved: "2026-04-04"
+context: >
+  Multi-lane roads present longer crossing distances and more complex
+  gap-acceptance decisions, increasing pedestrian exposure to risk.
+scope:
+  geography: "Nashville TN"
+tags: [nashville, pedestrian, fatality, road-design]
+relationships:
+  - target: nashville-fatalities-arterials
+    type: supports

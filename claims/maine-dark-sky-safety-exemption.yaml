@@ -1,0 +1,20 @@
+claim: "Maine LD 1934 (effective September 2026) explicitly exempts DOT and pedestrian safety lighting from its 3000K CCT cap"
+domain: traffic-safety
+confidence: high
+status: current
+source:
+  title: "Maine LD 1934"
+  author: "Maine State Legislature"
+  year: 2024
+  url: https://legislature.maine.gov/LawMakerWeb/summary.asp?ID=280090478
+context: >
+  Establishes precedent that safety-critical pedestrian lighting can be
+  exempted from dark sky CCT restrictions.
+scope:
+  geography: "Maine"
+  time_period: "effective September 30, 2026"
+tags: [dark-sky, maine, safety-exemption, cct, regulation]
+relationships:
+  - target: nashville-dark-sky-3000k
+    type: contradicts
+    note: "precedent for safety exemption"

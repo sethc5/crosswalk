@@ -1,0 +1,20 @@
+claim: "ANSI/IES RP-8-22 specifies 20 lux vertical illuminance at 1.5m above crosswalk surface for pedestrian detection"
+domain: traffic-safety
+confidence: high
+status: current
+source:
+  title: "ANSI/IES RP-8-22 Roadway Lighting"
+  author: "Illuminating Engineering Society"
+  year: 2022
+  url: https://www.ies.org/standards/
+context: >
+  The 20 lux vertical illuminance standard ensures drivers can detect
+  pedestrians at adequate stopping distances. Measured at face height
+  to represent the detection target.
+scope:
+  conditions: ["crosswalk illumination"]
+tags: [illuminance, ies, standard, crosswalk]
+relationships:
+  - target: higher-cct-detection-improvement
+    type: depends_on
+    note: "illuminance threshold established for detection adequacy"

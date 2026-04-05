@@ -1,0 +1,17 @@
+claim: "Pedestrian deaths rose 80% from 2009 to 2023, while all other traffic fatalities rose only 13%"
+domain: traffic-safety
+confidence: high
+status: current
+source:
+  title: "Pedestrian Traffic Fatalities by State: 2023 Preliminary Data"
+  author: "Governors Highway Safety Association"
+  year: 2024
+  url: "https://www.ghsa.org/resources/Pedestrians24"
+  retrieved: "2026-04-04"
+context: >
+  Pedestrian fatalities are rising far faster than other traffic deaths,
+  indicating a systemic failure of existing pedestrian safety infrastructure.
+scope:
+  geography: "US"
+  time_period: "2009-2023"
+tags: [pedestrian, fatality, trend]

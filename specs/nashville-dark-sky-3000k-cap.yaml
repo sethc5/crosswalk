@@ -1,0 +1,24 @@
+requirement: "Outdoor lighting for new construction shall not exceed 3000K correlated color temperature"
+domain: traffic-safety
+authority: "Nashville Metro Council"
+status: active
+compliance: shall
+source:
+  title: "Nashville Metropolitan Code BL2020-535"
+  author: "Nashville Metro Council"
+  year: 2021
+  url: https://www.nashville.gov/departments/codes/lighting-ordinance
+  retrieved: "2026-04-04"
+jurisdiction: local
+effective_date: "2021-04-06"
+scope:
+  geography: "Nashville/Davidson County"
+  conditions:
+    - new construction
+    - exemptions for downtown core
+basis:
+  - nashville-dark-sky-3000k
+context: >
+  Applies to new construction only. Existing installations grandfathered.
+  Downtown inside the interstate ring is exempt.
+tags: [nashville, dark-sky, cct, regulation]

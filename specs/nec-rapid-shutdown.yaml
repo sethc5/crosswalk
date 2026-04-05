@@ -1,0 +1,21 @@
+requirement: "Controlled conductors within 1-foot boundary of PV array shall be reduced to 80V or less within 30 seconds of rapid shutdown initiation"
+domain: traffic-safety
+authority: NFPA
+status: active
+compliance: shall
+source:
+  title: "NEC 2023 Article 690.12"
+  author: NFPA
+  year: 2023
+  url: https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70
+  retrieved: "2026-04-04"
+jurisdiction: local
+effective_date: "2025-07-15"
+scope:
+  geography: Nashville
+  conditions:
+    - solar PV installations
+context: >
+  Nashville adopted NEC 2023 effective July 15, 2025. Constrains solar
+  panel string voltage to avoid rapid shutdown requirements.
+tags: [nec, rapid-shutdown, solar, electrical]

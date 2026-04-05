@@ -1,0 +1,19 @@
+claim: "4 out of 5 pedestrian fatalities in Nashville occur on wide, state-controlled arterials with speed limits above 30 mph"
+domain: traffic-safety
+confidence: high
+status: current
+source:
+  title: "Nashville Pedestrian Safety Analysis"
+  author: "Walk Bike Nashville"
+  year: 2020
+  url: "https://www.walkbikenashville.org"
+  retrieved: "2026-04-04"
+context: >
+  Concentration of fatalities on high-speed arterials points to the need
+  for targeted crossing safety interventions on these specific corridors.
+scope:
+  geography: "Nashville TN"
+tags: [nashville, pedestrian, fatality, arterial]
+relationships:
+  - target: pedestrian-fatalities-after-dark
+    type: supports

@@ -1,0 +1,15 @@
+requirement: "Crosswalk illumination shall achieve 20 lux vertical illuminance at 1.5m above the crosswalk surface and 14 lux horizontal average minimum"
+domain: traffic-safety
+authority: "Illuminating Engineering Society"
+status: active
+compliance: shall
+source:
+  title: "ANSI/IES RP-8-22 Roadway Lighting"
+  author: IES
+  year: 2022
+  url: https://www.ies.org/standards/
+  retrieved: "2026-04-04"
+jurisdiction: federal
+basis:
+  - crosswalk-illuminance-standard
+tags: [ies, illuminance, crosswalk, standard]

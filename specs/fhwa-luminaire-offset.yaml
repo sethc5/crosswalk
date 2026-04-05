@@ -1,0 +1,13 @@
+requirement: "Crosswalk luminaires should be placed 10-20 feet in advance of the crosswalk on the approach side"
+domain: traffic-safety
+authority: FHWA
+status: active
+compliance: should
+source:
+  title: "Informational Report on Lighting Design for Midblock Crosswalks"
+  author: FHWA
+  year: 2008
+  url: https://www.fhwa.dot.gov/publications/research/safety/08053/
+  retrieved: "2026-04-04"
+jurisdiction: federal
+tags: [fhwa, luminaire-offset, crosswalk]

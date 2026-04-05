@@ -1,0 +1,17 @@
+claim: "Without RRFB, driver yielding compliance at uncontrolled crosswalks is typically 10-20%"
+domain: traffic-safety
+confidence: high
+status: current
+source:
+  title: "FHWA RRFB Informational Report"
+  author: "FHWA"
+  year: 2018
+  url: "https://safety.fhwa.dot.gov/ped_bike/step/resources/docs/fhwasa18064.pdf"
+  retrieved: "2026-04-04"
+context: >
+  Baseline yielding rates at uncontrolled crosswalks are dangerously low,
+  establishing the need for active warning devices like RRFBs.
+scope:
+  geography: "US"
+  conditions: ["uncontrolled crosswalks", "daytime"]
+tags: [rrfb, yielding, baseline, fhwa]

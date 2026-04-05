@@ -1,0 +1,19 @@
+claim: "FHWA estimates a 47% reduction in pedestrian crashes at RRFB-equipped crossings"
+domain: traffic-safety
+confidence: high
+status: current
+source:
+  title: "NCHRP Report 841: Development of Crash Modification Factors for Uncontrolled Pedestrian Crossing Treatments"
+  author: "NCHRP"
+  year: 2017
+  url: https://nap.nationalacademies.org/catalog/24627/development-of-crash-modification-factors-for-uncontrolled-pedestrian-crossing-treatments
+context: >
+  The 47% crash reduction figure is the published Crash Modification Factor
+  for RRFBs. It aggregates day and night conditions in the underlying studies.
+scope:
+  geography: "US"
+  conditions: ["combined day/night"]
+tags: [rrfb, crash-reduction, cmf, nchrp]
+relationships:
+  - target: rrfb-yielding-improvement
+    type: depends_on

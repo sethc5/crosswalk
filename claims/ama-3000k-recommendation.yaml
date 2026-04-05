@@ -1,0 +1,20 @@
+claim: "American Medical Association recommends communities use 3000K or below for outdoor streetlighting"
+domain: traffic-safety
+confidence: high
+status: current
+source:
+  title: "AMA Policy Statement on LED Streetlighting"
+  author: "American Medical Association"
+  year: 2016
+  url: https://www.ama-assn.org/press-center/press-releases/ama-adopts-guidance-reduce-harm-high-intensity-street-lights
+context: >
+  Based on circadian disruption and glare concerns for continuous exposure,
+  not pedestrian safety. Brief-activation safety systems may not trigger
+  same concerns.
+scope:
+  geography: "US"
+  conditions: ["continuous all-night outdoor streetlighting"]
+tags: [cct, ama, 3000k, circadian, recommendation]
+relationships:
+  - target: higher-cct-detection-improvement
+    type: contradicts

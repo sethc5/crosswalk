@@ -1,0 +1,20 @@
+claim: "Nighttime fatal pedestrian crashes rose 84% between 2010 and 2023, compared to 28% during daytime"
+domain: traffic-safety
+confidence: high
+status: current
+source:
+  title: "Pedestrian Traffic Fatalities by State: 2023 Preliminary Data"
+  author: "Governors Highway Safety Association"
+  year: 2024
+  url: "https://www.ghsa.org/resources/Pedestrians24"
+  retrieved: "2026-04-04"
+context: >
+  The nighttime increase rate is three times the daytime rate, indicating
+  that lighting and visibility countermeasures are increasingly critical.
+scope:
+  geography: "US"
+  time_period: "2010-2023"
+tags: [pedestrian, nighttime, fatality, trend]
+relationships:
+  - target: pedestrian-fatalities-after-dark
+    type: supports
