@@ -1,0 +1,54 @@
+refs:
+  # Mesopic vision traces to quantum mechanics / optics
+  - local_claim: mesopic-vision-purkinje-shift
+    remote_repo: ~/dev/kb-repos/constants
+    remote_claim: snells-law
+    relationship: depends_on
+
+  # CCT detection improvement traces to Wien's law (spectral peak vs temperature)
+  - local_claim: higher-cct-detection-improvement
+    remote_repo: ~/dev/kb-repos/constants
+    remote_claim: wien-displacement-law
+    relationship: depends_on
+
+  # Illuminance standard traces to photometry / radiometry
+  - local_claim: crosswalk-illuminance-standard
+    remote_repo: ~/dev/kb-repos/constants
+    remote_claim: stefan-boltzmann-law
+    relationship: depends_on
+
+  # RRFB crash reduction depends on statistical methods
+  - local_claim: rrfb-crash-reduction
+    remote_repo: ~/dev/kb-repos/math-kb
+    remote_claim: chi-squared-test
+    relationship: depends_on
+
+  # Value of life calculation uses statistical methods
+  - local_claim: fhwa-value-of-life
+    remote_repo: ~/dev/kb-repos/math-kb
+    remote_claim: normal-distribution
+    relationship: depends_on
+
+  # NEC rapid shutdown spec traces to electrical physics
+  - local_claim: rrfb-installation-cost
+    remote_repo: ~/dev/kb-repos/materials-kb
+    remote_claim: copper-electrical-resistivity
+    relationship: depends_on
+
+  # Nighttime fatality stats depend on statistical methodology
+  - local_claim: pedestrian-fatalities-after-dark
+    remote_repo: ~/dev/kb-repos/math-kb
+    remote_claim: bayes-theorem
+    relationship: depends_on
+
+  # Photoelectric effect is the physics behind LED emission
+  - local_claim: higher-cct-detection-improvement
+    remote_repo: ~/dev/kb-repos/constants
+    remote_claim: photoelectric-effect
+    relationship: depends_on
+
+  # AMA recommendation traces to circadian biology which traces to EM spectrum
+  - local_claim: ama-3000k-recommendation
+    remote_repo: ~/dev/kb-repos/chemistry-kb
+    remote_claim: electromagnetic-spectrum-regions
+    relationship: depends_on
