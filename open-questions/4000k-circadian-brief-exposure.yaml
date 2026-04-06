@@ -1,0 +1,16 @@
+question: >
+  Does brief-activation 4000K lighting at pedestrian crossings
+  cause measurable circadian disruption?
+domain: traffic-safety
+status: open
+priority: high
+context: >
+  AMA recommends 3000K for continuous all-night streetlighting based
+  on circadian disruption concerns. Brief-activation systems (20 seconds
+  per crossing event) may not trigger the same response, but this has
+  not been studied.
+needed: "Melatonin suppression study comparing brief 4000K exposure vs continuous 3000K exposure"
+related_claims:
+  - ama-3000k-recommendation
+  - higher-cct-detection-improvement
+tags: [cct, circadian, ama, 4000k, research-gap]

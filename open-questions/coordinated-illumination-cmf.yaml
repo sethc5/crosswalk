@@ -1,0 +1,15 @@
+question: >
+  What is the Crash Modification Factor for adding coordinated
+  illumination to an existing RRFB installation?
+domain: traffic-safety
+status: open
+priority: critical
+context: >
+  No published study isolates the additional crash reduction from
+  adding coordinated illumination to an existing RRFB. The FHWA
+  CMF Clearinghouse has no entry for this treatment combination.
+needed: "Controlled before/after study at RRFB-equipped crossings with and without coordinated illumination"
+related_claims:
+  - no-cmf-coordinated-illumination
+  - rrfb-crash-reduction
+tags: [cmf, illumination, rrfb, research-gap]

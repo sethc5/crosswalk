@@ -1,0 +1,17 @@
+question: >
+  What is the nighttime-specific yielding rate improvement from RRFBs
+  at uncontrolled crosswalks?
+domain: traffic-safety
+status: open
+priority: critical
+context: >
+  Published RRFB studies are primarily conducted during daylight.
+  The 47% crash reduction figure aggregates day and night.
+  76% of pedestrian fatalities occur after dark.
+  The effectiveness of RRFBs specifically at night is unknown.
+needed: "Before/after study of RRFB yielding rates measured exclusively during nighttime hours"
+related_claims:
+  - rrfb-crash-reduction
+  - rrfb-studies-mostly-daytime
+  - pedestrian-fatalities-after-dark
+tags: [rrfb, nighttime, yielding, research-gap]

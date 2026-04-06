@@ -7,6 +7,7 @@ source:
   author: "TDOT"
   year: 2022
   url: https://www.tn.gov/tdot/traffic-operations-division.html
+  retrieved: "2026-04-05"
 context: >
   Establishes the 'shall' requirement but is silent on coordinated activation,
   beam geometry, fixture type, or clearing integration.

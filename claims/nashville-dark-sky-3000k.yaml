@@ -7,6 +7,7 @@ source:
   author: "Nashville Metro Council"
   year: 2021
   url: https://www.nashville.gov/departments/codes/lighting-ordinance
+  retrieved: "2026-04-05"
 context: >
   Local dark sky regulation that may constrain CCT selection for pedestrian
   safety lighting. Includes exemptions for the downtown core.
